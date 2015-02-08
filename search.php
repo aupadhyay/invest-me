@@ -41,7 +41,7 @@
 		<p>Title: <?php echo $title[$k]; ?></p>
 		<p>Description: <?php echo $descrip[$k]; ?></p>
 		<p>Company: <?php echo $company[$k]; ?></p>
-		<p>URL: <?php echo "<a href='idea_account.php?project='".$project[$k]">Site</a>"; ?></p>
+		<p>URL: <?php echo "<a href='idea_account.php?project=".$project[$k].">Site</a>"; ?></p>
 		<p>Equity: Z<?php echo $equity[$k]; ?></p>
 		<hr><br>
 	<?php }?>
