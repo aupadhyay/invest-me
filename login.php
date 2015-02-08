@@ -9,7 +9,7 @@
 		if(mysql_num_rows($query) > 0 ){
 			echo "Logged In!";
 			while($row = $query->fetch_assoc()) {
-        			echo "id: " . $row["id"]. " - Name: " . $row["firstname"]. " " . $row["lastname"]. "<br>";
+        			echo "id: " . $row["id"]. " - Name: " . $row["name"]. " " . $row["lname"]. "<br>";
     			}
 		}
 	}
