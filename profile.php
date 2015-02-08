@@ -20,12 +20,14 @@
 			$descrip = array();
 			$equity = array();
 			$company = array();
+			$project = array();
 			$i = 0;
 			while ($row = mysql_fetch_object($sql_projects)){
 				$title[$i] = $row->title;
 				$descrip[$i] = $row->descrip;
 				$equity[$i] = $row->equity;
 				$company[$i] = $row->company;
+				$project[$i] = $row->project;
 				$i = $i + 1;
 			}
 
@@ -60,6 +62,7 @@
 			<p>Company:<?php echo $company[$j];?></p>
 			</div>
 			<div class="col-sm-6">
+				<h3><?php echo '<a href = "idea-account.php?project='.$project[$j].'"> View Details </a>'; ?></h3>
 			</div>
 			<div class="col-sm-12">
 				<hr>
