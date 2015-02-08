@@ -7,6 +7,7 @@
 		$query = mysql_query("SELECT * FROM `users` WHERE `email`='$username' AND `pass`='$pass'");
 
 		if(mysql_num_rows($query) > 0 ){
+			$_SESSION['loggedin'] = 1;
 			echo "Logged In!";
 			while ($row = mysql_fetch_object($query)){
 				$id = $row->ID;
@@ -28,7 +29,7 @@
 			$_SESSION['type'] = $type;
 			$_SESSION['hours'] = $hours;
 			$_SESSION['phone'] = $phone;
-			$_SESSION['loggedin'] = 1;
+			
 		}
 	}
 	else{
