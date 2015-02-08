@@ -46,6 +46,19 @@ $("button#saveSubmit").click( function() {
 });
 
 
+$("button#saveProject").click( function() {
+  $.post("update_project.php",$("#projectForm :input").serializeArray(),
+			function(data) {
+			  $("div#error_div").html(data);
+			});
+ 
+	$("#projectForm").submit( function() {
+	   return false;	
+	});
+	console.log("Test");
+ 	
+});
+
 
 
 
