@@ -26,11 +26,24 @@
                     <li><a href="index.php">Home</a></li>
                     <li><a href="how-it-works.php">How it Works</a></li>
         		  	   <li><a href="explore.php">Explore</a></li>
-                    <?php if($_SESSION['loggedin'] = 1){ ?>
-                      <li><a href="logout.php" data-toggle="modal">Log Out</a></li>
-                    <?php } else { ?>
-                      <li><a href="#login" data-toggle="modal">Log In</a></li>
-                      <li><a href="#register" data-toggle="modal">Register</a></li>
+                    <?php if($_SESSION['loggedin'] != 1){ ?>
+                      <li class="link-nav">
+                        <a href="#login" data-toggle="modal"> Log In</a>
+                      </li>
+                  
+                      <li class="link-nav">
+                        <a href="#register" data-toggle="modal"> Register</a>
+                      </li>
+              
+                    <?php }else{ ?>
+                      <li class="dropdown link-nav">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><?php echo $_SESSION['first_name'];?> <span class="caret"></span></a>
+                        <ul class="dropdown-menu link-nav" role="menu">
+                            <li><a href="myaccount.html">My Account</a></li>
+                            <li class = "link-nav"><a href="logout.php"> Log Out </a> </li>
+                        </ul>
+                    </li>
+              
                     <?php } ?>                 
                  </ul>
       			</div>	
