@@ -8,6 +8,7 @@
 		<div class="container">
 			<div class="jumbotron">
 				<h1>E-VEST</h1>
+              <img src="img/bg.jpg" alt="Background">
 			</div>
 		</div>
       
