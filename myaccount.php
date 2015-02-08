@@ -57,4 +57,6 @@
 				</form>
 			</div>
 		</div>
+
+		<script type="text/javascript" src  = "js/Login-AJAX.js"></script>
 </html>
