@@ -19,6 +19,23 @@
 
 	}
 
+	$sql_projects = mysql_query("SELECT * FROM `ideas` WHERE `owner`='$username'");
+		if(mysql_num_rows($sql_projects) > 0 ){
+			$title = array();
+			$descrip = array();
+			$equity = array();
+			$company = array();
+			$i = 0;
+			while ($row = mysql_fetch_object($sql_projects)){
+				$title[$i] = $row->title;
+				$descrip[$i] = $row->descrip;
+				$equity[$i] = $row->equity;
+				$company[$i] = $row->company;
+				$i = $i + 1;
+			}
+
+		}
+
 ?>
 
 
@@ -30,6 +47,27 @@
 			<p><?php echo $location; ?></p>
 			<p><?php echo $bio; ?></p>
 		</div>
+
+		<h2>My Projects</h2>
+			<div class="row">
+			<?php for ($j=0; $j < sizeof($title) ; $j++) { ?>
+			<br><div class="col-sm-6">
+			<p>Title:<?php echo $title[$j];?></p>
+			<p>Description:<?php echo $descrip[$j];?></p>
+			<p>Equity:<?php echo $equity[$j];?></p>
+			<p>Company:<?php echo $company[$j];?></p>
+			</div>
+			<div class="col-sm-3">
+				<img src="http://placehold.it/30x30" alt="A">
+			</div>
+			<div class="col-sm-3">
+				<img src="http://placehold.it/30x30" alt="A">
+			</div>
+			<div class="col-sm-12">
+				<hr>
+			</div>
+			<?php }?>
+			</div>
 	</div>
 
 
