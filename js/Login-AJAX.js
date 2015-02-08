@@ -24,6 +24,8 @@ $("button#submit").click( function() {
 	$("#myForm").submit( function() {
 	   return false;	
 	});
+
+	reload();
  
 });
 
