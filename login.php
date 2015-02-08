@@ -19,7 +19,7 @@
 				$hours = $row->hours;
 				$phone = $row->phone;
 			}
-			$_SESSION['id'] = $id
+			$_SESSION['id'] = $id;
 			$_SESSION['first_name'] = $first_name;
 			$_SESSION['last_name'] = $last_name;
 			$_SESSION['email'] = $email;
