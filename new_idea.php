@@ -12,8 +12,8 @@
 	$website = mysql_escape_string($_POST['website']);
 	$other = mysql_escape_string($_POST['other']);
 
-	$sql_query = mysql_query("INSERT INTO `ideas` (`title`, `desc`, `video`, `equity`, `keywords`, `company`, `founder`, `website`, `other`) VALUES('$title','$desc','$video','$equity','$keywords','$company', '$founder', '$website', '$other')");
-	
+	$sql_query = mysql_query("INSERT INTO `ideas` (`title`, `descrip`, `video_url`, `equity`, `keywords`, `company`, `founder`, `website`, `other`) VALUES('$title','$desc','$video','$equity','$keywords','$company', '$founder', '$website', '$other')");
+
 
 
 ?>
