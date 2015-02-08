@@ -98,9 +98,9 @@
 
                   <label for="type">Choose One: </label>
                   <div class="checkbox">
-                      <input type="radio" name="type" value="investor" checked>Investor
+                      <input type="radio" name="type" value="inv" checked>Investor
                       <br>
-                      <input type="radio" name="type" value="entrepreneur">Entrepreneur
+                      <input type="radio" name="type" value="ent">Entrepreneur
                   </div>
                 </div>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

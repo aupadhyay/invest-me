@@ -4,8 +4,6 @@
 		$name = mysql_escape_string($_POST['name']);
 		$lname = mysql_escape_string($_POST['lname']);
 		$type = mysql_escape_string($_POST['type']);
-		$selected_radio = $_POST['type'];
-		echo $selected_radio;
 		$location = mysql_escape_string($_POST['location']);
 		$email = mysql_escape_string($_POST['email']);
 		$pass = mysql_escape_string($_POST['password']);
