@@ -12,7 +12,7 @@
 				<button class="btn btn-info" type="submit" name="searchSubmit" id="searchSubmit">Submit</button>
 			</form>
 			<hr>
-			<div class="results"> </div>
+			<div class="results"></div>
 
 		</div>
 	</div>

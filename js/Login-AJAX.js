@@ -47,9 +47,9 @@ $("button#saveSubmit").click( function() {
 
 
 $("button#searchSubmit").click( function() {
-  $.post("search.php",$("#searchForm :input").serializeArray(),
+  $.post("search.php",$("#searchForm:input").serializeArray(),
 			function(data) {
-			  $("div#results").html(data);
+				$("div#results").html(data);
 			});
  
 	$("#searchForm").submit( function() {
