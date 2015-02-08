@@ -39,6 +39,33 @@
 		</div>
 
 
+
+      <div class="modal fade" id="login" role = "dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="h1">Log In</h4>
+            </div>
+          <div class="modal-body">
+            <div id="ack"></div>
+            <form action="login.php" id = "myForm"method="POST">
+              <div class="form-group">
+                  <label for="email">Email address</label>
+                  <input type="email" class="form-control" id = "email"name="email" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" class="form-control" id = "password"name="password" placeholder="Password">
+                </div>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="submit" id = "submit" name="submit" class="btn btn-success">Log In</button>
+            </form>
+
+            </div>
+          </div>
+        </div>
+        </div>
+
 		<script src="js/bootstrap.js"></script>
 	</body>
 </html>
