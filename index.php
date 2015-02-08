@@ -24,8 +24,8 @@
     			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       				<ul class="nav navbar-nav">
         		  	   <li><a href="#">Explore</a></li>
-                    <li><a href="#login" data-toggle="modal"> Log In</a></li>
-                    <li><a href="#register" data-toggle="modal"> Log In</a></li>
+                    <li><a href="#login" data-toggle="modal">Log In</a></li>
+                    <li><a href="#register" data-toggle="modal">Register</a></li>
                  </ul>
       			</div>	
 
@@ -41,33 +41,16 @@
 
 
 
-      <div class="modal fade" id="register" role = "dialog">
+      <div class="modal fade" id="login" role = "dialog">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h4 class="h1">Register</h4>
+              <h4 class="h1">Log In</h4>
             </div>
           <div class="modal-body">
             <div id="ack"></div>
-            <form action="register.php" id = "myForm"method="POST">
-                <div class="form-group">
-                  <label for="name">First Name</label>
-                  <input type="text" class="form-control" id="name" placeholder=" First Name">
-                </div>
-                <div class="form-group">
-                  <label for="lname">Last Name</label>
-                  <input type="text" class="form-control" id="lname" placeholder=" Last Name">
-                </div>
-                <div class="form-group">
-                  <label for="location">Location</label>
-                  <input type="text" class="form-control" id="location" placeholder="Location">
-                </div>
-                <div class="form-group">
-                  <label for="name">Name</label>
-                  <input type="text" class="form-control" id="name" placeholder="Name">
-                </div>
-
-                <div class="form-group">
+            <form action="login.php" id = "myForm"method="POST">
+              <div class="form-group">
                   <label for="email">Email address</label>
                   <input type="email" class="form-control" id = "email"name="email" placeholder="Enter email">
                 </div>
@@ -75,10 +58,6 @@
                   <label for="password">Password</label>
                   <input type="password" class="form-control" id = "password"name="password" placeholder="Password">
                 </div>
-
-
-
-
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 <button type="submit" id = "submit" name="submit" class="btn btn-success">Log In</button>
             </form>
@@ -88,23 +67,24 @@
         </div>
         </div>
 
-        <div class="modal fade" id="login" role = "dialog">
+
+
+        <div class="modal fade" id="register" role = "dialog">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h4 class="h1">Login</h4>
+              <h4 class="h1">Register</h4>
             </div>
           <div class="modal-body">
             <div id="ack"></div>
             <form action="login.php" id = "myForm"method="POST">
-
-                <div class="form-group">
+              <div class="form-group">
                   <label for="email">Email address</label>
                   <input type="email" class="form-control" id = "email"name="email" placeholder="Enter email">
                 </div>
                 <div class="form-group">
                   <label for="password">Password</label>
-                  <input type="password" class="form-control" id = "password"name="pass" placeholder="Password">
+                  <input type="password" class="form-control" id = "password"name="password" placeholder="Password">
                 </div>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 <button type="submit" id = "submit" name="submit" class="btn btn-success">Log In</button>
@@ -114,11 +94,6 @@
           </div>
         </div>
         </div>
-
-        
-
-
-        
       <script type="text/javascript" src  = "js/jquery-1.11.0.min.js"></script>
       <script type="text/javascript" src  = "js/Login-AJAX.js"></script>
 		<script src="js/bootstrap.js"></script>
