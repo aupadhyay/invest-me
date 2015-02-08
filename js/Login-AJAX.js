@@ -26,7 +26,7 @@ $("button#submit").click( function() {
 	   return false;	
 	});
 
-	 window.top.location.reload();
+	window.top.location.reload();
  
 });
 
