@@ -1,6 +1,7 @@
 <?php
 	session_start();
 	require("php/header.php");
+	require("../databases/config_users.php");
 	$id = $_SESSION["id"];
 	$name = mysql_escape_string($_POST["first_name"]);
 	$last_name = mysql_escape_string($_POST["last_name"]);
