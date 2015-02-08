@@ -82,10 +82,14 @@
 	
 		<div class="container">
 			<h2>My Projects</h2>
-			<p>Title:<?php echo $title[0];?></p>
-			<p>Description:<?php echo $descrip[0];?></p>
-			<p>Equity:<?php echo $equity[0];?></p>
-			<p>Company:<?php echo $company[0];?></p>
+			<?php for ($j=0; $j < sizeof($title) ; $j++) { ?>
+
+			<p>Title:<?php echo $title[$j];?></p>
+			<p>Description:<?php echo $descrip[$j];?></p>
+			<p>Equity:<?php echo $equity[$j];?></p>
+			<p>Company:<?php echo $company[$j];?></p>
+			<hr>
+			<?php }?>
 		</div>
 
 
