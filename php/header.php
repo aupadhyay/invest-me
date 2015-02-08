@@ -41,7 +41,7 @@
                         <ul class="dropdown-menu link-nav" role="menu">
                             <li><a href="myaccount.php">My Account</a></li>
                             <li><a href="logout.php"> Log Out </a> </li>
-                            <li><a href="#register">New Idea</a> </li>
+                            <li><a href="#idea-register" data-toggle="modal">New Idea</a> </li>
                         </ul>
                     </li>
               
