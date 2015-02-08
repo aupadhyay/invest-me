@@ -29,24 +29,6 @@ $("button#submit").click( function() {
  
 });
 
-$("button#submit1").click( function() {
- 
-  if( $("#email").val() == "" || $("#password").val() == "" )
-  	$("div#ack").html("Please enter both username and password");
-  else
-  	$.post("login.php",$("#myForm :input").serializeArray(),
-			function(data) {
-			  $("div#ack").html(data);
-			});
- 
-	$("#myForm").submit( function() {
-	   return false;	
-	});
-	window.location = "../../myaccount.html";
-	reload();
- 
-});
-
 $("button#saveSubmit").click( function() {
   $.post("update_data.php",$("#saveForm :input").serializeArray(),
 			function(data) {

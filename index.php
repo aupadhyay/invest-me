@@ -77,13 +77,13 @@
             </div>
           <div class="modal-body">
             <div id="ack2"></div>
-            <form action="login.php" id = "myForm"method="POST">
+            <form action="login.php" id = "registerForm"method="POST">
                 <div class="form-group">
                   <label for="name">First Name</label>
                   <input type="text" class="form-control" id = "name"name="name" placeholder="First Name">
               
                   <label for="lname">Last Name</label>
-                  <input type="email" class="form-control" id = "email"name="email" placeholder="Last Name">
+                  <input type="email" class="form-control" id = "lname"name="lname" placeholder="Last Name">
                 
               
                   <label for="email">Email</label>
@@ -106,7 +106,7 @@
                   <input type="text" class="form-control" id = "type"name="type" placeholder="Type">
                 </div>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="submit" id = "submit" name="submit" class="btn btn-success">Log In</button>
+                <button type="submit" id = "submitRegister" name="submitRegister" class="btn btn-success">Register</button>
             </form>
 
             </div>
