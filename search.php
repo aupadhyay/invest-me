@@ -17,8 +17,11 @@
 	}
 
 	$query = mysql_query($query);
+	echo $query;
 	$numrows = mysql_num_rows($query);
+	
 	if($numrows > 0 ){
+		echo "testing";
 		while($row = mysql_fetch_assoc($query)){
 			$title = $row->title;
 			$desc = $row->descrip;
