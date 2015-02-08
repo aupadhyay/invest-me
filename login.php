@@ -1,11 +1,17 @@
 <?php
 	require("../databases/config_users.php");
+	if(isset($_POST['email'])){
+		$username = mysql_escape_string($_POST['email']);
+		$pass = mysql_escape_string($_POST['pass']);
+		$query = mysql_query("SELECT * FROM `users` WHERE `email`='$username' AND `pass`='$pass'");
 
-	$query = mysql_query("SELECT `name` FROM `users` WHERE `id`='1'");
+		if(mysql_num_rows($query) > 0 ){
+			echo "Logged In!";
 
-	if(mysql_num_rows($query) > 0 ){
-		echo "Abhi";
-
+		}
+	}
+	else{
+		echo "not set"
 	}
 
 ?>
