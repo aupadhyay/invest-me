@@ -58,7 +58,7 @@
             <p style="font-size:24px">Post your company's information and have the investors lined up behind your product! <br>
               Use their past experience and contacts to further expand your business.</p>
             <div class="image-resize" style="text-align:center;">
-            <img src="img/light_bulb.png" alt="Idea" width="150" height="150">
+            <img src="img/light_bulb.png" alt="Idea" width="175" height="175">
           </div>
           </div>
         </div>
