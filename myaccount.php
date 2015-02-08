@@ -60,7 +60,7 @@
 					
 					<button type="submit" id = "saveSubmit" name="saveSubmit" class="btn btn-success">Save</button>
 				</form>
-				<? } ?>
+				<?php } ?>
 			</div>
 		</div>
 </html>
