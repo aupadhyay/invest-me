@@ -1,7 +1,7 @@
 <?php
 	require("../databases/config_users.php");
 	if(isset($_GET['u'])){
-		$u = $_GET['u'];
+		$u = mysql_escape_string($_GET['u']);
 		$sql_query = mysql_query("SELECT * FROM `users` WHERE `username`='u'");
 
 		if(mysql_num_rows($sql_query) > 0){
