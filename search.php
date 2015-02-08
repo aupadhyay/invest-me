@@ -31,19 +31,21 @@
 		$equity[$j] = $row->equity;
 		$j = $j + 1;
 	}
-	echo $title[0];
 	
 ?>
 
 <html>
-
+	<div class="container">
+	<div class="jumbotron">
 	<?php for($k=0;$k < sizeof($title);$k++){?>
-		<p><?php echo $title[$k]; ?></p>
-		<p><?php echo $descrip[$k]; ?></p>
-		<p><?php echo $company[$k]; ?></p>
-		<p><?php echo $project[$k]; ?></p>
-		<p><?php echo $equity[$k]; ?></p>
+		<p>Title: <?php echo $title[$k]; ?></p>
+		<p>Description: <?php echo $descrip[$k]; ?></p>
+		<p>Company: <?php echo $company[$k]; ?></p>
+		<p>URL: <?php echo "<a href='idea_account.php?project='".$project[$k]">Site</a>"; ?></p>
+		<p>Equity: <?php echo $equity[$k]; ?></p>
 		<hr><br>
 	<?php }?>
+	</div>
+	</div>
 
 </html>
