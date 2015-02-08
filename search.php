@@ -15,8 +15,9 @@
 			$query .= "OR (`keywords` LIKE '$each')";
 
 	}
-
+	echo $query;
 	$query = mysql_query($query);
+	
 	$numrows = mysql_num_rows($query);
 	
 	if($numrows > 0 ){
