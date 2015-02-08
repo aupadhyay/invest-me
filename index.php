@@ -21,10 +21,9 @@
           <div class="col-sm-6">
             <h1>Entrepreneurs</h1>
             <p></p>
-          </div>  
-
+          </div>
         </div>
-          <div class="col-sm-12">
+        <div class="col-sm-12">
             <h1>Questions?</h1>
             <p></p>
           </div>
