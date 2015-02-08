@@ -26,9 +26,9 @@
 	while ($row = mysql_fetch_assoc($query)) {
 		$title[$j] = $row['title'];
 		$descrip[$j] = $row['descrip'];
-		$company[$j] = $row->['company'];
-		$project[$j] = $row->['project'];
-		$equity[$j] = $row->['equity'];
+		$company[$j] = $row['company'];
+		$project[$j] = $row['project'];
+		$equity[$j] = $row['equity'];
 	}
 	echo $title[0];
 	
