@@ -96,7 +96,9 @@
 			<div class="col-sm-3">
 				<img src="http://placehold.it/30x30" alt="A">
 			</div>
-			<br><hr>
+			<div class="col-sm-12">
+				<hr>
+			</div>
 			<?php }?>
 			</div>
 		</div>
