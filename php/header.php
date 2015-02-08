@@ -99,7 +99,7 @@
                   <label for="type">Choose One: </label>
                   <div class="checkbox">
                     <label>
-                      <input type="checkbox"> Igniter (Investor)
+                      <input type="checkbox"> Igniter (Investor) <br>
                       <input type="checkbox"> Entrepreneur
                     </label>
                   </div>
