@@ -9,9 +9,12 @@
 		$pass = mysql_escape_string($_POST['password']);
 		$phone = mysql_escape_string($_POST['phone']);
 		$hours = mysql_escape_string($_POST['hours']);
-		
-		$insert_sql = mysql_query("INSERT INTO `users` (`name`, `lname`, `type`, `location`, `email`, `pass`, `phone`, `hours`) VALUES ('$name', '$lname', '$type', '$location', '$email', '$pass', '$phone', '$hours')");
-		
+		$check_email = mysql_query("SELECT * `users` WHERE `email`='$email'");
+		if(mysql_num_rows($check_email) = 0){}	
+			$insert_sql = mysql_query("INSERT INTO `users` (`name`, `lname`, `type`, `location`, `email`, `pass`, `phone`, `hours`) VALUES ('$name', '$lname', '$type', '$location', '$email', '$pass', '$phone', '$hours')");
+		}else{
+			echo "User already exists!";
+		}
 	}
 	else{
 		echo "not set";
