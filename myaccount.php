@@ -20,8 +20,6 @@
 		$_SESSION['username'] = $first_namea . "." . $last_namea . $id;
 		$username = $_SESSION['username'];
 		mysql_query("UPDATE `users` SET `username`='$username' WHERE `ID`='$id'");
-
-		echo $username;
 		$sql_projects = mysql_query("SELECT * FROM `ideas` WHERE `owner`='$username'");
 		if(mysql_num_rows($sql_projects) > 0 ){
 			while ($row = mysql_fetch_object($sql_projects)){
@@ -78,7 +76,10 @@
 	
 		<div class="container">
 			<h2>My Projects</h2>
-			<p><?php echo $title;?></p>
+			<p>Title:<?php echo $title;?></p>
+			<p>Description:<?php echo $descrip;?></p>
+			<p>Equity:<?php echo $equity;?></p>
+			<p>Company:<?php echo $company;?></p>
 		</div>
 
 
