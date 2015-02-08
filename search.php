@@ -9,6 +9,7 @@
 	$query = "SELECT * FROM `ideas` WHERE";
 	foreach ($terms as $each){
 		$i++;
+		echo $each;
 		if($i == 1)
 			$query .= "(`keywords` LIKE '$each') ";
 		else
