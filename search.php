@@ -30,7 +30,7 @@
 		$project[$j] = $row->project;
 		$equity[$j] = $row->equity;
 	}
-
+	echo $title[0];
 	
 ?>
 
