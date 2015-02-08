@@ -63,7 +63,7 @@
 				<img src="http://placehold.it/30x30" alt="A">
 			</div>
 			<div class="col-sm-3">
-				<img src="img/trash.jpg" alt="A">
+				<img src="img/trash.jpg" width="450px" height="480px" alt="A">
 			</div>
 			<div class="col-sm-12">
 				<hr>
