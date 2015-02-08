@@ -20,7 +20,7 @@
    			echo $row->ID;
     		}
     	}else{
-    		echo "Ugh"
+    		echo "Ugh";
     	}
 	header("Location: idea-account.php"); /* Redirect browser */
 
