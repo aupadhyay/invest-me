@@ -1,5 +1,4 @@
 <?php
-	header("Location: myaccount.php");
 	session_start();
 	require ("../databases/config_users.php");
 	require("php/header.php");
