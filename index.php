@@ -16,7 +16,7 @@
           <div class="col-sm-6" >
             <h1>Investors</h1>
             <p>Come look at cool products and invest in them! Help businesses grow with your business expertise!</p>
-            <div class="container">
+            <div class="container" style="text-align: center;">
               <img src="img/money.png" alt="Money" width="200" height="200">
             </div>
           </div>
