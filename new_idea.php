@@ -24,6 +24,6 @@
 	}
 
 
-	/*header("Location: idea-account.php");  Redirect browser */
+	header("Location: idea-account.php");  /*Redirect browser */
 
 ?>
