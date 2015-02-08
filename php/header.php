@@ -140,36 +140,33 @@
             <div id="ack"></div>
             <form action="new_idea.php" id = "myForm"method="POST">
                 <div class="form-group">
-                    
-
-
 
                     <label for="title">Title</label>
-                    <input type="text" id="title" name="title" placeholder="Title">
+                    <input type="text" class="form-control" id="title" name="title" placeholder="Title">
 
                     <label for="title">Description</label>
-                    <input type="text" id="desc" name="desc" placeholder="Description">
+                    <input type="text"  class="form-control" id="desc" name="desc" placeholder="Description">
 
                     <label for="title">Video-URL</label>
-                    <input type="text" id="video_url" name="video_url" placeholder="Video (Optional)">
+                    <input type="text" class="form-control" id="video_url" name="video_url" placeholder="Video (Optional)">
 
                     <label for="title">Equity</label>
-                    <input type="text" id="equity" name="equity" placeholder="Equity">
+                    <input type="text" class="form-control" id="equity" name="equity" placeholder="Equity">
 
                     <label for="title">Keywords (seperated by commas)</label>
-                    <input type="text" id="keywords" name="keywords" placeholder="Keywords">
+                    <input type="text" class="form-control" id="keywords" name="keywords" placeholder="Keywords">
 
                     <label for="title">Company</label>
-                    <input type="text" id="company" name="company" placeholder="Company">
+                    <input type="text" class="form-control" id="company" name="company" placeholder="Company">
 
                     <label for="title">Founder</label>
-                    <input type="text" id="founder" name="founder" placeholder="Founder">
+                    <input type="text"  class="form-control"id="founder" name="founder" placeholder="Founder">
 
                     <label for="title">Website URL</label>
-                    <input type="text" id="website" name="website" placeholder="Website URL">
+                    <input type="text" class="form-control" id="website" name="website" placeholder="Website URL">
 
                     <label for="title">Other</label>
-                    <input type="text" id="other" name="other" placeholder="Other">
+                    <input type="text" class="form-control" id="other" name="other" placeholder="Other">
                 
 
 
