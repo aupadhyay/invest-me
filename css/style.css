@@ -1,4 +1,6 @@
-.navbar-brand .image {
-	margin-top: 500px;
-
+.investorsbutton {
+	color:red;
+	height:100px;
+	width:100px;
+	border: 2px solid blue;
 }
