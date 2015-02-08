@@ -36,7 +36,7 @@
 			<div class="jumbotron">
         
 				<h1>E-VEST</h1>
-        <button type="button" class="btn btn-default" href="index.html">Left</button>
+        <button type="button" class="btn btn-default"><a href="index.html">TEst</a></button>
 			</div>
 		</div>
 
