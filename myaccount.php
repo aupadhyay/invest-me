@@ -91,12 +91,12 @@
 			<p>Company:<?php echo $company[$j];?></p>
 			</div>
 			<div class="col-sm-3">
-				<img src="placehold.it/30x30" alt="">
+				<img src="http://placehold.it/30x30" alt="A">
 			</div>
 			<div class="col-sm-3">
-				<img src="placehold.it/30x30" alt="">
+				<img src="http://placehold.it/30x30" alt="A">
 			</div>
-			<hr>
+			<br><hr>
 			<?php }?>
 			</div>
 		</div>
