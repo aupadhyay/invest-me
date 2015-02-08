@@ -31,6 +31,7 @@
 				$title[$i] = $row->title;
 				$descrip[$i] = $row->descrip;
 				$equity[$i] = $row->equity;
+				$project[$i] = $row->project;
 				$company[$i] = $row->company;
 				$i = $i + 1;
 			}
@@ -90,7 +91,7 @@
 			<p>Company:<?php echo $company[$j];?></p>
 			</div>
 			<div class="col-sm-3">
-				<a href="index.php">
+				<?php echo '<a href="update-account.php?project='. $project[$j] .'">'; ?>
 					<img src="img/pencil.png" width="84px" height="84px" alt="A">
 				</a>
 			</div>
