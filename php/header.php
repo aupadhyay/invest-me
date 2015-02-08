@@ -2,6 +2,7 @@
 	<head>
 		<title>E-VeST</title>
 		<link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
 		<nav class="navbar navbar-default navbar-custom">
