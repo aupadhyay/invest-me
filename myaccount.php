@@ -44,10 +44,6 @@
 					<label>Last Name:
 						<input class= "form-control"id = "lname"name="lname"type="text" value=<?php echo $last_namea;?>>
 					</label><br/>
-					
-					<label>Email:
-						<input class= "form-control" id = "email"name="email"type="text" value=<?php echo $emaila;?>>
-					</label><br/>
 
 					<label>Location(optional):
 						<textarea type="textarea" id = "location"name="location"class= "form-control" style="overflow:auto;resize:none !important;" rows="1" cols="40"><?php echo $locationa; ?></textarea>
