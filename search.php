@@ -1,6 +1,5 @@
 <?php
 	session_start();
-	require("php/header.php");
 	require("../databases/config_users.php");
 
 	$k = $_GET['keys'];
