@@ -36,6 +36,7 @@
 <html>
 	<div class="container">
 	<div class="jumbotron">
+	<h1>Search</h1>
 	<form action="search.php" method="get" id="searchForm">
 		<input type="text" name="keys"class="form-control" id ="search" name="search" placeholder="Search...">
 		<button class="btn btn-info" type="submit" name="searchSubmit" id="searchSubmit">Submit</button>
