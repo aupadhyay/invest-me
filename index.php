@@ -49,10 +49,12 @@
             <p>Come look at cool products and invest in them! Help businesses grow with your business expertise!</p>
             <img src="img/money.png" alt="Money" width="100" height="100">
           </div>
-          
+
           <div class="col-sm-6">
-            <h1 class="title2">Entrepreneurs</h1>
-            <p></p>
+            <h1 class="title2">Entrepeneurs</h1>
+            <p>Post your company's information and have the investors lined up behind your product! <br>
+              Use their past experience and contacts to further expand your business.</p>
+            <img src="img/light_bulb.png" alt="Idea" width="100" height="100">
           </div>
         </div>
         <div class="col-sm-12" style="text-align:center;">
