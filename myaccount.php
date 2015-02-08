@@ -2,6 +2,7 @@
 	session_start();
 	require("php/header.php");
 	$location = $_SESSION["location"];
+	echo $location;
 ?>
 
 <html>
