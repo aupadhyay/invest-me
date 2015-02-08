@@ -148,28 +148,28 @@
                     <input type="text" id="title" name="title" placeholder="Title">
 
                     <label for="title">Description</label>
-                    <input type="text" id="desc" name="desc" placeholder="desc">
+                    <input type="text" id="desc" name="desc" placeholder="Description">
 
                     <label for="title">Video-URL</label>
-                    <input type="text" id="video_url" name="video_url" placeholder="video_url">
+                    <input type="text" id="video_url" name="video_url" placeholder="Video (Optional)">
 
                     <label for="title">Equity</label>
-                    <input type="text" id="equity" name="equity" placeholder="equity">
+                    <input type="text" id="equity" name="equity" placeholder="Equity">
 
-                    <label for="title">Keywords</label>
-                    <input type="text" id="keywords" name="keywords" placeholder="keywords">
+                    <label for="title">Keywords (seperated by commas)</label>
+                    <input type="text" id="keywords" name="keywords" placeholder="Keywords">
 
                     <label for="title">Company</label>
-                    <input type="text" id="company" name="company" placeholder="company">
+                    <input type="text" id="company" name="company" placeholder="Company">
 
                     <label for="title">Founder</label>
-                    <input type="text" id="founder" name="founder" placeholder="founder">
+                    <input type="text" id="founder" name="founder" placeholder="Founder">
 
-                    <label for="title">Website</label>
-                    <input type="text" id="website" name="website" placeholder="website">
+                    <label for="title">Website URL</label>
+                    <input type="text" id="website" name="website" placeholder="Website URL">
 
                     <label for="title">Other</label>
-                    <input type="text" id="other" name="other" placeholder="other">
+                    <input type="text" id="other" name="other" placeholder="Other">
                 
 
 
