@@ -17,13 +17,9 @@
 
 	}
 
-	if(isset($_SESSION['username'])){
-		echo "TEST";
-	}else{
 		$_SESSION['username'] = $first_namea . "." . $last_namea . $id;
 		$username = $_SESSION['username'];
 		echo $username;
-	}
 ?>
 <html>
 	<!--JUMBOTRON BEGINNING -->
