@@ -12,6 +12,7 @@
 				$title = $row->title;	
 				$description = $row->descrip;
 				$equity = $row->equity;
+				$owner = $row->owner;
 				$keywords = $row->keywords;
 				$company = $row->company;
 				$founder = $row->founder;
@@ -26,14 +27,13 @@
 <html>
 	<div class="container">
 		<div class="jumbotron">
-			<h1><?php echo $title?></h1>
-			<p><?php echo $description?></p>
-			<p><?php echo $keywords?></p>
-			<p><?php echo $equity?></p>
-			<p><?php echo $company?></p>
-			<p><?php echo $founder?></p>
-			<p><?php echo $website?></p>
-			<p><?php echo $other?></p>
+			<h1>Title: <?php echo $title?></h1>
+			<p>Description: <?php echo $description?></p>
+			<p>Valuation: <?php echo $equity?></p>
+			<p>Company: <?php echo $company?></p>
+			<p>Founder: <?php echo '<a href = "profile.php?u='.$owner.'">'.$owner.'</a>'; ?></p>
+			<p>Website: <?php echo $website?></p>
+			<p>Other?: <?php echo $other?></p>
 		</div>
 	</div>
 </html>
