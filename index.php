@@ -11,5 +11,10 @@
 		</div>
 
 		<script src="js/bootstrap.js"></script>
+	<div class"nav">
+		<ul>
+			<li>Home</li> 
+			<li></li>
+
 	</body>
 </html>
