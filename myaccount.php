@@ -22,11 +22,17 @@
 		mysql_query("UPDATE `users` SET `username`='$username' WHERE `ID`='$id'");
 		$sql_projects = mysql_query("SELECT * FROM `ideas` WHERE `owner`='$username'");
 		if(mysql_num_rows($sql_projects) > 0 ){
+			$title = array();
+			$descrip = array();
+			$equity = array();
+			$company = array();
+			$i = 0;
 			while ($row = mysql_fetch_object($sql_projects)){
-				$title = $row->title;
-				$descrip = $row->descrip;
-				$equity = $row->equity;
-				$company = $row->company;
+				$title[$i] = $row->title;
+				$descrip[$i] = $row->descrip;
+				$equity[$i] = $row->equity;
+				$company[$i] = $row->company;
+				$i = $i + 1;
 			}
 
 		}
@@ -76,10 +82,10 @@
 	
 		<div class="container">
 			<h2>My Projects</h2>
-			<p>Title:<?php echo $title;?></p>
-			<p>Description:<?php echo $descrip;?></p>
-			<p>Equity:<?php echo $equity;?></p>
-			<p>Company:<?php echo $company;?></p>
+			<p>Title:<?php echo $title[0];?></p>
+			<p>Description:<?php echo $descrip[0];?></p>
+			<p>Equity:<?php echo $equity[0];?></p>
+			<p>Company:<?php echo $company[0];?></p>
 		</div>
 
 
