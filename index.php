@@ -23,7 +23,7 @@
             <p></p>
           </div>
         </div>
-        <div class="col-sm-12">
+        <div class="col-sm-12" style="padding-left:0px;">
             <h1>Questions?</h1>
             <p></p>
           </div>
