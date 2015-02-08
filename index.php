@@ -62,6 +62,6 @@
 
           </div>
       
-    <div class="fb-like" data-href="https://www.facebook.com/pages/E-Vest/1585328398346199" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+    <div class="fb-like" style="width:100%;" data-href="https://www.facebook.com/pages/E-Vest/1585328398346199" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
   </div>
 </html> 
