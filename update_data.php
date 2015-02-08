@@ -1,6 +1,5 @@
 <?php
 	session_start();
-	require("php/header.php");
 	require("../databases/config_users.php");
 	$id = $_SESSION["id"];
 	$name = mysql_escape_string($_POST["fname"]);
@@ -14,6 +13,8 @@
 	$_SESSION["last_name"] = $last_name;
 	$_SESSION["location"] = $location;
 	$_SESSION["bio"] = $bio;
+
+	echo "Saved!";
 
 
 
