@@ -1,5 +1,6 @@
 .navbar-custom{
-	background-color: #03A9F4;
+	background-color:#03f4c7 !important;
+	
 }
 
 body{
@@ -11,6 +12,6 @@ body{
 }
 
 .jumbotron{
-	background-color:#03f4c7 !important;
+	background-color: #03A9F4 !important;
 	border-radius: 10px; 
 }
