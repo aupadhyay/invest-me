@@ -3,7 +3,7 @@
 }
 
 body{
-	background-color: #FEE9E7;
+	/*background-color: #FEE9E7;*/
 }
 
 .link-nav a{
@@ -11,6 +11,6 @@ body{
 }
 
 .jumbotron{
-	background-color:#FFC107 !important;
+	background-color:#4CAF50 !important;
 	border-radius: 10px; 
 }
