@@ -6,6 +6,7 @@
 	<div class="container">
 		<div class="jumbotron">
 				<h1>How It Works.</h1>
+				<hr>
 		</div>
 	</div>
 </html>
