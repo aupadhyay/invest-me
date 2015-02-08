@@ -154,7 +154,7 @@
                     <label for="title">Equity</label>
                     <input type="text" class="form-control" id="equity" name="equity" placeholder="Equity">
 
-                    <label for="title">Keywords (seperated by commas)</label>
+                    <label for="title">Keywords (seperated by spaces)</label>
                     <input type="text" class="form-control" id="keywords" name="keywords" placeholder="Keywords">
 
                     <label for="title">Company</label>
