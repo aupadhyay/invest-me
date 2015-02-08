@@ -76,15 +76,34 @@
               <h4 class="h1">Register</h4>
             </div>
           <div class="modal-body">
-            <div id="ack"></div>
+            <div id="ack2"></div>
             <form action="login.php" id = "myForm"method="POST">
-              <div class="form-group">
-                  <label for="email">Email address</label>
-                  <input type="email" class="form-control" id = "email"name="email" placeholder="Enter email">
-                </div>
                 <div class="form-group">
+                  <label for="name">First Name</label>
+                  <input type="text" class="form-control" id = "name"name="name" placeholder="First Name">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="email" class="form-control" id = "email"name="email" placeholder="Last Name">
+                
+              
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id = "email"name="email" placeholder="Enter email">
+                
+              
                   <label for="password">Password</label>
                   <input type="password" class="form-control" id = "password"name="password" placeholder="Password">
+                
+                  <label for="location">Location</label>
+                  <input type="text" class="form-control" id = "location"name="location" placeholder="Location">
+
+                  <label for="phone">Phone Number</label>
+                  <input type="text" class="form-control" id = "phone"name="phone" placeholder="Phone">
+
+                  <label for="hours">Hours Available</label>
+                  <input type="text" class="form-control" id = "hours"name="hours" placeholder="Hours">
+
+                  <label for="type">Choose One: </label>
+                  <input type="text" class="form-control" id = "type"name="type" placeholder="Type">
                 </div>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 <button type="submit" id = "submit" name="submit" class="btn btn-success">Log In</button>
