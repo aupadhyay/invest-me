@@ -6,4 +6,6 @@
 		$keyword = $_GET['key'];
 		echo $keyword;
 	}
+
+	
 ?>

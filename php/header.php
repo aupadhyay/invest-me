@@ -4,7 +4,7 @@
 		<link rel="stylesheet" href="css/bootstrap.css">
 	</head>
 	<body>
-		<nav class="navbar navbar-default">
+		<nav class="navbar navbar-default navbar-custom">
   			<div class="container">
     		<!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -18,14 +18,14 @@
      			 	<a class="navbar-brand" href="index.php">
                     <img src="https://cloud.githubusercontent.com/assets/9246693/6094703/1aba957e-aeeb-11e4-8a95-683b7d2a84d7.png" style= "float:left; margin:-12px 15px 0px 15px"; height= "40" width="50" />
                 </a>
-                <a class="navbar-brand" href="index.php">E-VesT</a>
+                <a class="navbar-brand link-nav" href="index.php" style="color:#ffffff;">E-VesT</a>
     			</div>
 
     			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       				<ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="how-it-works.php">How it Works</a></li>
-        		  	   <li><a href="explore.php">Explore</a></li>
+                    <li class="link-nav"><a href="index.php">Home</a></li>
+                    <li class="link-nav"><a href="how-it-works.php">How it Works</a></li>
+        		  	   <li class="link-nav"><a href="explore.php">Explore</a></li>
                     <?php if($_SESSION["loggedin"] != 1){ ?>
                       <li class="link-nav">
                         <a href="#login" data-toggle="modal"> Log In</a>

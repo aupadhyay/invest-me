@@ -1,5 +1,27 @@
 @font-face{
-    font-family: "Simple Kind of Girl";
-    src: url('../fonts/menu.eot') format('embedded-opentype'),
-    url('../fonts/menu.otf') format('opentype'); /* IE */
+    font-family: "Market Deco";
+    src: url('../fonts/Market_Deco.eot') format('embedded-opentype'),
+    url('../fonts/Market_Deco.otf') format('opentype'); /* IE */
+}
+.navbar-custom{
+	background-color:#03a9f4 !important;
+	
+}
+
+body{
+	background-color: #def2ff;
+}
+.navbar-brand{
+	color: #0331f4 !important;
+	font-family:Simple Dandy !important;	
+}
+
+.link-nav a{
+	color: #0331f4 !important;
+	font-family:Simple Dandy !important;
+}
+
+.jumbotron{
+	background-color: #03e5f4 !important;
+	border-radius: 10px; 
 }
