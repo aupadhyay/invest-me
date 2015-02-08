@@ -25,7 +25,8 @@ $("button#submit").click( function() {
 	$("#myForm").submit( function() {
 	   return false;	
 	});
-	$('#login').modal('hide');
+	window.location = "myaccount.php";
+	reload();
  
 });
 
