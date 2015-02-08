@@ -9,9 +9,8 @@
 		$pass = mysql_escape_string($_POST['password']);
 		$phone = mysql_escape_string($_POST['phone']);
 		$hours = mysql_escape_string($_POST['hours']);
-		
-		$insert_sql = mysql_query("INSERT INTO `users` (`name`, `lname`, `type`, `location`, `email`, `pass`, `phone`, `hours`) VALUES ('$name', '$lname', '$type', '$location', '$email', '$pass', '$phone', '$hours')");
-		
+		$insert_sql = mysql_query("INSERT INTO `users` (`name`, `lname`, `type`, `location`, `email`, `pass`, `phone`, `hours`, `username`) VALUES ('$name', '$lname', '$type', '$location', '$email', '$pass', '$phone', '$hours')");
+			
 	}
 	else{
 		echo "not set";
