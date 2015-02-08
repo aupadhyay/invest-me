@@ -4,9 +4,9 @@ ul {
 
 
 @font-face{
-    font-family: "Market Deco";
-    src: url('../fonts/Market_Deco.eot') format('embedded-opentype'),
-    url('../fonts/Market_Deco.otf') format('opentype'); /* IE */
+    font-family: "AidaSerif-Condensed";
+    src: url('../fonts/Aida.eot') format('embedded-opentype'),
+    url('../fonts/Aida.otf') format('opentype'); /* IE */
 }
 
 
@@ -20,13 +20,13 @@ body{
 }
 .navbar-brand{
 	color: #def2ff !important;
-	font-family:Market Deco!important;
+	font-family:AidaSerif-Condensed!important;
 	font-size: 30px;	
 }
 
 .link-nav a{
 	color: #def2ff !important;
-	font-family:Market Deco !important;
+	font-family:AidaSerif-Condensed!important;
 	font-size: 30px;
 }
 
