@@ -25,7 +25,7 @@
 			<div class="jumbotron">
 				<h1 class="h1" id ="welcome">My Account - 
 				<?php if($_SESSION['loggedin'] == 1){
-						echo $first_namea." ".$_SESSION['last_name']."<br/>";
+						echo $first_namea." ".$last_namea."<br/>";
 					}else{ ?>
 						<li style="list-style-type:none;">
 							<a href="#login" data-toggle="modal"> Log In</a>

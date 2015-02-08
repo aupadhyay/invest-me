@@ -10,7 +10,10 @@
 
 	$sql_query = mysql_query("UPDATE `users` SET `name`='$name', `lname`='$last_name', `location`='$location', `bio`='$bio' WHERE `ID`='$id'");
 
-
+	$_SESSION["first_name"] = $name;
+	$_SESSION["last_name"] = $last_name;
+	$_SESSION["location"] = $location;
+	$_SESSION["bio"] = $bio;
 
 
 
