@@ -26,8 +26,12 @@
                     <li><a href="index.php">Home</a></li>
                     <li><a href="how-it-works.php">How it Works</a></li>
         		  	   <li><a href="explore.php">Explore</a></li>
-                    <li><a href="#login" data-toggle="modal">Log In</a></li>
-                    <li><a href="#register" data-toggle="modal">Register</a></li>
+                    <?php if($_SESSION['loggedin'] = true){ ?>
+                      <li><a href="logout.php" data-toggle="modal">Log Out</a></li>
+                    <?php } else { ?>
+                      <li><a href="#login" data-toggle="modal">Log In</a></li>
+                      <li><a href="#register" data-toggle="modal">Register</a></li>
+                    <?php } ?>                 
                  </ul>
       			</div>	
 
