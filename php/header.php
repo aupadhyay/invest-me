@@ -23,6 +23,8 @@
 
     			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       				<ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="how-it-works.php">How it Works</a></li>
         		  	   <li><a href="explore.php">Explore</a></li>
                     <li><a href="#login" data-toggle="modal">Log In</a></li>
                     <li><a href="#register" data-toggle="modal">Register</a></li>
