@@ -39,7 +39,7 @@
               <button class="btn btn-primary btn-lg" onClick="location.href='http://anothersitehere.com/file.pdf'">Download PDF</button>
 			</div>
 		</div>
-
+    <div class="container">
       <div class="row">
         <div class="col-sm-6">
           <h1>Test</h1>
@@ -48,6 +48,7 @@
           <h1>Test</h1>
         </div>
 
+      </div>
       </div>
 
       <div class="modal fade" id="login" role = "dialog">
