@@ -38,7 +38,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 		<div class="container">
 			<div class="jumbotron">
-				<h1>E-VEST</h1>
+				<h1 class="title">E-VEST</h1>
 			</div>
 		</div>
       
