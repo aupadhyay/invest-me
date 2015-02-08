@@ -13,7 +13,6 @@
 		</div>
       
       <div class="container">
-        <div class="ack2"></div>
         <div class="row">
           <div class="col-sm-6">
             <h1>Investors</h1>
