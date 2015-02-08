@@ -1,4 +1,5 @@
 <?php
+	session_start();
 	require("../databases/config_users.php");
 	require ("php/header.php");
 	if(isset($_GET['u'])){
@@ -13,14 +14,8 @@
 				$location = $row->location;
 				$bio = $row->bio;
 			}
-		}else{
-			echo "No user with that name!";
-		}
-
-	}
-
-	$sql_projects = mysql_query("SELECT * FROM `ideas` WHERE `owner`='$username'");
-		if(mysql_num_rows($sql_projects) > 0 ){
+			$sql_projects = mysql_query("SELECT * FROM `ideas` WHERE `owner`='$u'");
+			if(mysql_num_rows($sql_projects) > 0 ){
 			$title = array();
 			$descrip = array();
 			$equity = array();
@@ -35,6 +30,13 @@
 			}
 
 		}
+		}else{
+			echo "No user with that name!";
+		}
+
+	}
+
+	
 
 ?>
 
@@ -48,7 +50,7 @@
 			<p><?php echo $bio; ?></p>
 		</div>
 
-		<h2>My Projects</h2>
+		<h2>Projects</h2>
 			<div class="row">
 			<?php for ($j=0; $j < sizeof($title) ; $j++) { ?>
 			<br><div class="col-sm-6">
