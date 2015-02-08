@@ -18,8 +18,12 @@
 		while($row = mysql_fetch_object($sql_id)){
 			$id = $row->ID;
 		}
-		echo $id;
+		$project_name = $title . $id;
+		echo $project_name;
+		
 	}
+
+
 	/*header("Location: idea-account.php");  Redirect browser */
 
 ?>
