@@ -8,7 +8,8 @@ $("button#submitRegister").click( function() {
 	$("#registerForm").submit( function() {
 	   return false;	
 	});
- 
+ 	reload();
+
 });
 
 $("button#submit").click( function() {
