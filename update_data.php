@@ -7,7 +7,7 @@
 	$location = mysql_escape_string($_POST["location"]);
 	$bio =mysql_escape_string($_POST["bio"]);
 
-	$sql_query = mysql_query("UPDATE `users` SET `name`='$name', `lname`='$last_name', `location`='$location', `bio`='$bio' WHERE `id`='$id'");
+	$sql_query = mysql_query("UPDATE `users` SET `name`='$name', `lname`='$last_name', `location`='$location', `bio`='$bio' WHERE `ID`='$id'");
 
 
 
