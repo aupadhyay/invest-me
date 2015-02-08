@@ -11,7 +11,7 @@
 			while ($row = mysql_fetch_object($mysql_query)) {
 				$title = $row->title;	
 			}	
-			echo $title;
+			echo $title . "<-";
 		}	
 	}
 ?>
