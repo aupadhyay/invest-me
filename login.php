@@ -28,7 +28,7 @@
 			$_SESSION['type'] = $type;
 			$_SESSION['hours'] = $hours;
 			$_SESSION['phone'] = $phone;
-			$_SESSION['loggedin'] = true;
+			$_SESSION['loggedin'] = 1;
 		}
 	}
 	else{
