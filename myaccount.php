@@ -91,7 +91,7 @@
 			<p>Company:<?php echo $company[$j];?></p>
 			</div>
 			<div class="col-sm-6">
-				<?php echo '<a href = "idea-account.php?project='.$project[$j].'">'.$project[$j].'</a>'; ?>
+				<?php echo '<a href = "idea-account.php?project='.$project[$j].'">Profile Page for Idea</a>'; ?>
 			</div>
 			<div class="col-sm-12">
 				<hr>
