@@ -47,7 +47,8 @@ $("button#saveSubmit").click( function() {
 
 
 $("button#searchSubmit").click( function() {
-  $.post("search.php",$("#searchForm:input").serializeArray(),
+	console.log("Clicked");
+  $.post("search.php",$("#searchForm :input").serializeArray(),
 			function(data) {
 				$("div#results").html(data);
 			});
