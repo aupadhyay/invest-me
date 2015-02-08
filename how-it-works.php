@@ -7,7 +7,15 @@
 		<div class="jumbotron">
 				<h1>How It Works.</h1>
 				<hr>
-				<p>Are you a venture capitalist?Do you have a ton of money you can give to random losers trying to make money?</p>
+				<p>Are you a venture capitalist? OR do you need captial to really <em>ignite</em> your business? <br>
+					E-Vest is the place for you!</p>
+				<ul>
+					<li><STRONG>Venture Capatalists</STRONG> </li>
+						<ul>
+						<li>Browse through ideas and businesses.</li>
+						<li>Interact with the </li>	
+				</ul>
+			</ul>
 		</div>
 	</div>
 </html>
