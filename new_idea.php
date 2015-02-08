@@ -16,9 +16,8 @@
 
 	$sql_id = mysql_query("SELECT ID FROM `ideas` WHERE `title`='$title'");
 	while($row = $sql_id->fetch_assoc()) {
-       	echo $row["ID"];
+   		echo $row->ID;
     	}
-	
 	header("Location: idea-account.php"); /* Redirect browser */
 
 ?>
