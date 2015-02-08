@@ -45,13 +45,13 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
-            <h1>Investors</h1>
+            <h1 class="title2">Investors</h1>
             <p>Come look at cool products and invest in them! Help businesses grow with your business expertise!</p>
             <img src="img/money.png" alt="Money" width="100" height="100">
           </div>
           
           <div class="col-sm-6">
-            <h1>Entrepreneurs</h1>
+            <h1 class="title2">Entrepreneurs</h1>
             <p></p>
           </div>
         </div>
