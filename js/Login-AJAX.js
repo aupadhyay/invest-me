@@ -9,7 +9,9 @@ $("button#submitRegister").click( function() {
 	   return false;	
 	});
 
-
+	window.location = "index.php";
+	window.top.location.reload();
+	window.location = "index.php";
 });
 
 $("button#submit").click( function() {
