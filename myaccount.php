@@ -1,8 +1,24 @@
 <?php
 	session_start();
 	require("php/header.php");
-	$location = $_SESSION["location"];
-	echo $location;
+	$id = $_SESSION["id"];
+	$data_sql = mysql_query("SELECT * FROM `users` WHERE `ID`='$id'");
+	
+
+	if(mysql_num_rows($data_sql) > 0 ){
+		while ($row = mysql_fetch_object($data_sql)){
+				$ida = $row->ID;
+				$first_namea = $row->name;
+				$last_namea = $row->lname;
+				$emaila = $row->email;
+				$locationa = $row->location;
+				$bioa = $row->bio;
+				$typea = $row->type;
+				$hoursa = $row->hours;
+				$phonea= $row->phone;
+		}
+
+	}
 ?>
 
 <html>
@@ -13,7 +29,7 @@
 			<form action="update_data.php" method="POST">
 				<div class="form-control">
 					<label for="name">First Name</label>
-					<input type="text" id="first_name" name= "first_name"value=<?php echo $_SESSION["first_name"]; ?>>
+					<input type="text" id="first_name" name= "first_name"value=<?php echo $first_namea; ?>>
 					<label for="last_name">Last Name</label>
 					<input type="text" id="last_name" name= "last_name"value=<?php echo $_SESSION["last_name"]; ?>>
 					<label for="location">Location</label>
