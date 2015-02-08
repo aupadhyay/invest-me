@@ -39,7 +39,7 @@
                       <li class="dropdown link-nav">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><?php echo $_SESSION['first_name'];?> <span class="caret"></span></a>
                         <ul class="dropdown-menu link-nav" role="menu">
-                            <li><a href="myaccount.html">My Account</a></li>
+                            <li><a href="myaccount.php">My Account</a></li>
                             <li class = "link-nav"><a href="logout.php"> Log Out </a> </li>
                         </ul>
                     </li>
