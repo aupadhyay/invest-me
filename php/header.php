@@ -72,7 +72,7 @@
                   <input type="password" class="form-control" id = "password"name="password" placeholder="Password">
                 </div>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="submit" id = "submit" name="submit" class="btn btn-success">Log In</button>
+                <button type="submit" id = "submit" name="submit" class="btn btn-info">Log In</button>
             </form>
 
             </div>
@@ -123,7 +123,7 @@
                   </div>
                 </div>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="submit" id = "submitRegister" name="submitRegister" class="btn btn-success">Register</button>
+                <button type="submit" id = "submitRegister" name="submitRegister" class="btn btn-info">Register</button>
             </form>
 
             </div>
