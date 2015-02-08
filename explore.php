@@ -7,8 +7,8 @@
 	<div class="container">
 		<div class="jumbotron">
 			<h1>Explore</h1>
-			<form action="search.php" method="POST" id="searchForm">
-				<input type="text" class="form-control" id ="search" name="search" placeholder="Search...">
+			<form action="search.php" method="get" id="searchForm">
+				<input type="text" name="keys"class="form-control" value=<?php echo $_GET['keys'];?> id ="search" name="search" placeholder="Search...">
 			</form>
 		</div>
 	</div>
