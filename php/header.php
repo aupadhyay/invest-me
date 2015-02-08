@@ -26,7 +26,7 @@
                     <li><a href="index.php">Home</a></li>
                     <li><a href="how-it-works.php">How it Works</a></li>
         		  	   <li><a href="explore.php">Explore</a></li>
-                    <?php if($_SESSION['loggedin'] = true){ ?>
+                    <?php if($_SESSION['loggedin'] = 1){ ?>
                       <li><a href="logout.php" data-toggle="modal">Log Out</a></li>
                     <?php } else { ?>
                       <li><a href="#login" data-toggle="modal">Log In</a></li>
