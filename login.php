@@ -1,5 +1,5 @@
 <?php
-	require("../databases/config.php");
+	require("../databases/config_users.php");
 
 	$query = mysql_query("SELECT `name` FROM `users` WHERE `id`='1'");
 
