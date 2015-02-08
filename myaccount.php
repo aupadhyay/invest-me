@@ -84,11 +84,14 @@
 			<h2>My Projects</h2>
 			<div class="row">
 			<?php for ($j=0; $j < sizeof($title) ; $j++) { ?>
-			<br><div class="col-sm-12">
+			<br><div class="col-sm-6">
 			<p>Title:<?php echo $title[$j];?></p>
 			<p>Description:<?php echo $descrip[$j];?></p>
 			<p>Equity:<?php echo $equity[$j];?></p>
 			<p>Company:<?php echo $company[$j];?></p>
+			</div>
+			<div class="col-sm-6">
+				<?php echo '<a href = "idea-account.php?project='.$project[$j].'">'.$project[$j].'</a>'; ?>
 			</div>
 			<div class="col-sm-12">
 				<hr>
