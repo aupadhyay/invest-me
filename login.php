@@ -20,15 +20,15 @@
 				$hours = $row->hours;
 				$phone = $row->phone;
 			}
-			$_SESSION['id'] = $id;
-			$_SESSION['first_name'] = $first_name;
-			$_SESSION['last_name'] = $last_name;
-			$_SESSION['email'] = $email;
-			$_SESSION['location'] = $location;
-			$_SESSION['bio'] = $bio;
-			$_SESSION['type'] = $type;
-			$_SESSION['hours'] = $hours;
-			$_SESSION['phone'] = $phone;
+			$_SESSION["id"] = $id;
+			$_SESSION["first_name"] = $first_name;
+			$_SESSION["last_name"] = $last_name;
+			$_SESSION["email"] = $email;
+			$_SESSION["location"] = $location;
+			$_SESSION["bio"] = $bio;
+			$_SESSION["type"] = $type;
+			$_SESSION["hours"] = $hours;
+			$_SESSION["phone"] = $phone;
 			
 		}
 	}
