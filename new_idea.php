@@ -18,8 +18,8 @@
 		while($row = mysql_fetch_object($sql_id)){
 			$id = $row->ID;
 		}
-		$project_name = $title . $id;
-		echo $project_name;
+		$project_name = $title . ".".$id;
+		$sql_insert_project = mysql_query("INSERT INTO `ideas` (`project`) VALUES ('$project_name')");
 		
 	}
 
