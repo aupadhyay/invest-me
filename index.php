@@ -83,7 +83,7 @@
                   <input type="text" class="form-control" id = "name"name="name" placeholder="First Name">
               
                   <label for="lname">Last Name</label>
-                  <input type="email" class="form-control" id = "lname"name="lname" placeholder="Last Name">
+                  <input type="text" class="form-control" id = "lname"name="lname" placeholder="Last Name">
                 
               
                   <label for="email">Email</label>
