@@ -15,7 +15,10 @@
 	$sql_query = mysql_query("INSERT INTO `ideas` (`title`, `descrip`, `video_url`, `equity`, `keywords`, `company`, `founder`, `website`, `other`) VALUES('$title','$desc','$video','$equity','$keywords','$company', '$founder', '$website', '$other')");
 	$sql_id = mysql_query("SELECT ID FROM `ideas` WHERE `title`='$title'");
 	if(mysql_num_rows($sql_id) > 0){
-		echo $sql_id;
+		while($row = mysql_fetch_object($sql_id)){
+			$id = $row->ID;
+		}
+		echo $id;
 	}
 	/*header("Location: idea-account.php");  Redirect browser */
 
