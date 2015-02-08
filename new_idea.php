@@ -13,15 +13,9 @@
 	$other = mysql_escape_string($_POST['other']);
 
 	$sql_query = mysql_query("INSERT INTO `ideas` (`title`, `descrip`, `video_url`, `equity`, `keywords`, `company`, `founder`, `website`, `other`) VALUES('$title','$desc','$video','$equity','$keywords','$company', '$founder', '$website', '$other')");
-
+	echo "Yes!";
 	$sql_id = mysql_query("SELECT * FROM `ideas` WHERE `title`='$title'");
-	if(mysql_num_rows($sql_id) > 0 ){
-		while($row = $sql_id->fetch_assoc()) {
-   			echo $row->ID;
-    		}
-    	}else{
-    		echo "Ugh";
-    	}
+	echo "Test";
 	header("Location: idea-account.php"); /* Redirect browser */
 
 ?>
