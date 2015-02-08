@@ -54,10 +54,9 @@
 					</label><br/>
 					
 					<button type="submit" id = "saveSubmit" name="saveSubmit" class="btn btn-success">Save</button>
-					<div class="error_div"></div>
 				</form>
 			</div>
 		</div>
-
+		<div id="error_div"></div>
 		<script type="text/javascript" src  = "js/Login-AJAX.js"></script>
 </html>
