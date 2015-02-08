@@ -38,14 +38,14 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 		<div class="container">
 			<div class="jumbotron">
-				<h1 class="title">E-VEST</h1>
+				<h1 class="title">Welcome to INVest...</h1>
 			</div>
 		</div>
       
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
-            <h1 class="title2">Investors</h1>
+            <h1 class="title2">INVestors</h1>
             <p style="font-size:24px">Check out new products introduced to the market and, possibly, invest in them! Help businesses grow and expand.
               With further help from investors <br>we could all revolutionize technology and knowledge.</p>
             <div class="image-resize" style="text-align:center;">

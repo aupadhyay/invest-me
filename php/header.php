@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>E-VeST</title>
+		<title>INVest</title>
 		<link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 	</head>
