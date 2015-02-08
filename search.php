@@ -1,5 +1,6 @@
 <?php
 	session_start();
+	require("php/header.php");
 	require("../databases/config_users.php");
 
 	$k = $_GET['keys'];
@@ -8,11 +9,10 @@
 	$query = "SELECT * FROM `ideas` WHERE";
 	foreach ($terms as $each){
 		$i++;
-		echo $each;
 		if($i == 1)
-			$query .= "(`keywords` LIKE '%$each%') ";
+			$query .= "(`keywords` LIKE '$each') ";
 		else
-			$query .= "OR (`keywords` LIKE '%$each%')";
+			$query .= "OR (`keywords` LIKE '$each')";
 
 	}
 

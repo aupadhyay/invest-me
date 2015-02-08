@@ -8,13 +8,11 @@
 		<div class="jumbotron">
 			<h1>Explore</h1>
 			<form action="search.php" method="get" id="searchForm">
-				<input type="text" name="keys"class="form-control" value=<?php echo $_GET['keys'];?> id ="search" name="search" placeholder="Search...">
+				<input type="text" name="keys"class="form-control" id ="search" name="search" placeholder="Search...">
 				<button class="btn btn-info" type="submit" name="searchSubmit" id="searchSubmit">Submit</button>
 			</form>
 			<hr>
-			<div class="results"></div>
 
 		</div>
 	</div>
-	<script type="text/javascript" src="js/Login-AJAX.js"></script>
 </html>
