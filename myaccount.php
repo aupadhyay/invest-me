@@ -1,5 +1,6 @@
 <?php
 	session_start();
+	require("../databases/config.php");
 	require("php/header.php");
 	$id = $_SESSION["id"];
 	$data_sql = mysql_query("SELECT * FROM `users` WHERE `ID`='$id'");
