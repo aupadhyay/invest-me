@@ -36,7 +36,6 @@
 						</li>
 					<?php } ?>
 				</h1>
-				<?php if($_SESSION["loggedin"] = 1) { ?>
 				<form action="update_data.php" method="POST" id="saveForm">
 					<label>First Name:
 						<input class="form-control"  id = "fname"name="fname" type="text" value=<?php echo $first_namea;?>>
@@ -60,7 +59,6 @@
 					
 					<button type="submit" id = "saveSubmit" name="saveSubmit" class="btn btn-success">Save</button>
 				</form>
-				<?php } ?>
 			</div>
 		</div>
 </html>
