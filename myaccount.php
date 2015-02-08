@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	require("../databases/config.php");
+	require ("../databases/config.php");
 	require("php/header.php");
 	$id = $_SESSION["id"];
 	$data_sql = mysql_query("SELECT * FROM `users` WHERE `ID`='$id'");
@@ -8,44 +8,58 @@
 
 	if(mysql_num_rows($data_sql) > 0 ){
 		while ($row = mysql_fetch_object($data_sql)){
-				$ida = $row->ID;
-				$first_namea = $row->name;
-				$last_namea = $row->lname;
-				$emaila = $row->email;
-				$locationa = $row->location;
-				$bioa = $row->bio;
-				$typea = $row->type;
-				$hoursa = $row->hours;
-				$phonea= $row->phone;
+			$first_namea = $row->name;
+			$last_namea = $row->lname;
+			$emaila = $row->email;
+			$locationa = $row->location;
+			$bioa = $row->bio;
 		}
 
 	}
 ?>
-
 <html>
-	<div class="container">
-		<div class="jumbotron">
-			<h1>My Account - <?php echo $_SESSION['first_name'];?></h1>
+	<!--JUMBOTRON BEGINNING -->
 
-			<form action="update_data.php" method="POST">
-				<div class="form-control">
-					<label for="name">First Name</label>
-					<input type="text" id="first_name" name= "first_name"value=<?php echo $first_namea; ?>>
-					<label for="last_name">Last Name</label>
-					<input type="text" id="last_name" name= "last_name"value=<?php echo $_SESSION["last_name"]; ?>>
-					<label for="location">Location</label>
-					<input type="text" id="location" name= "location"value=<?php echo $location; ?>>
-					<label for="phone">Phone</label>
-					<input type="text" id="phone" name= "phone"value=<?php echo $_SESSION["phone"]; ?>>
-					<label for="hours">Hours</label>
-					<input type="text" id="hours" name= "hours"value=<?php echo $_SESSION["hours"]; ?>>
-					<label for="bio">Bio</label>
-					<input type="textarea" id="bio" name= "bio"value=<?php echo $_SESSION["bio"]; ?>>
-				</div>
-			</form>
+	<div id="error_div"></div>
+		<div class="container">
+			<div class="jumbotron">
+				<h1 class="h1" id ="welcome">My Account - 
+				<?php if($_SESSION['loggedin'] == 1){
+						echo $first_namea." ".$_SESSION['last_name']."<br/>";
+					}else{ ?>
+						<li style="list-style-type:none;">
+							<a href="#login" data-toggle="modal"> Log In</a>
+						</li> 
+						or 
+						<li style="list-style-type:none;">
+							<a href="#register" data-toggle="modal">Register</a>
+						</li>
+					<?php } ?>
+				</h1>
 
+				<form action="update_data.php" method="POST" id="saveForm">
+					<label>First Name:
+						<input class="form-control"  id = "fname"name="fname" type="text" value=<?php echo $first_namea;?>>
+					</label><br/>
+					
+					<label>Last Name:
+						<input class= "form-control"id = "lname"name="lname"type="text" value=<?php echo $last_namea;?>>
+					</label><br/>
+					
+					<label>Email:
+						<input class= "form-control" id = "email"name="email"type="text" value=<?php echo $emaila;?>>
+					</label><br/>
+
+					<label>Location(optional):
+						<textarea type="textarea" id = "location"name="location"class= "form-control" style="overflow:auto;resize:none !important;" rows="1" cols="40"><?php echo $locationa; ?></textarea>
+					</label><br/>
+
+					<label>Bio:
+						<textarea type="textarea" id = "bio"name="bio"class= "form-control" style="overflow:auto;resize:none !important;" rows="5" cols="40"><?php echo $bioa; ?></textarea>
+					</label><br/>
+					
+					<button type="submit" id = "saveSubmit" name="saveSubmit" class="btn btn-success">Save</button>
+				</form>
+			</div>
 		</div>
-	</div>
-
 </html>
-
