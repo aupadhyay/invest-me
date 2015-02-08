@@ -48,7 +48,7 @@
             <h1 class="title2">Investors</h1>
             <p style="font-size:24px">Check out new products introduced to the market and, possibly, invest in them! Help businesses grow and expand.
               With further help from investors <br>we could all revolutionize technology and knowledge.</p>
-            <img src="img/money.png" alt="Money" width="100" height="100">
+            <img src="img/money.png" style="text-align:center;" alt="Money" width="100" height="100">
           </div>
 
           <div class="col-sm-6">
