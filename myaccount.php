@@ -20,6 +20,18 @@
 		$_SESSION['username'] = $first_namea . "." . $last_namea . $id;
 		$username = $_SESSION['username'];
 		mysql_query("UPDATE `users` SET `username`='$username' WHERE `ID`='$id'");
+
+		$username = $_SESSION['username'];
+		$sql_projects = mysql_query("SELECT * FROM `ideas` WHERE `owner`='$username'");
+		if(mysql_num_rows($sql_projects) > 0 ){
+			while ($row = mysql_fetch_object($sql_projects)){
+				$title = $row->title;
+				$descrip = $row->descrip;
+				$equity = $row->equity;
+				$company = $row->company;
+			}
+
+		}
 ?>
 <html>
 	<!--JUMBOTRON BEGINNING -->
@@ -63,6 +75,12 @@
 				<div id="error_div"></div>
 			</div>
 		</div>
-		
+	
+		<div class="container">
+			<h2>My Projects</h2>
+			<p><?php echo $title;?></p>
+		</div>
+
+
 		<script type="text/javascript" src  = "js/Login-AJAX.js"></script>
 </html>

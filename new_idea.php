@@ -11,8 +11,9 @@
 	$founder = mysql_escape_string($_POST['founder']);
 	$website = mysql_escape_string($_POST['website']);
 	$other = mysql_escape_string($_POST['other']);
+	$owner = mysql_escape_string($_SESSION['username']);
 
-	$sql_query = mysql_query("INSERT INTO `ideas` (`title`, `descrip`, `video_url`, `equity`, `keywords`, `company`, `founder`, `website`, `other`) VALUES('$title','$desc','$video','$equity','$keywords','$company', '$founder', '$website', '$other')");
+	$sql_query = mysql_query("INSERT INTO `ideas` (`title`, `descrip`, `video_url`, `equity`, `keywords`, `company`, `founder`, `website`, `other`, `owner`) VALUES('$title','$desc','$video','$equity','$keywords','$company', '$founder', '$website', '$other', '$owner')");
 	$sql_id = mysql_query("SELECT ID FROM `ideas` WHERE `title`='$title'");
 	if(mysql_num_rows($sql_id) > 0){
 		while($row = mysql_fetch_object($sql_id)){
