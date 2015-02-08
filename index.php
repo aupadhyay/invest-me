@@ -49,7 +49,7 @@
             <p style="font-size:24px">Check out new products introduced to the market and, possibly, invest in them! Help businesses grow and expand.
               With further help from investors <br>we could all revolutionize technology and knowledge.</p>
             <div class="image-resize" style="text-align:center;">
-            <img src="img/money.png" alt="Money" width="100" height="100">
+            <img src="img/money.png" alt="Money" width="150" height="150">
           </div>
         </div>
 
@@ -58,7 +58,7 @@
             <p style="font-size:24px">Post your company's information and have the investors lined up behind your product! <br>
               Use their past experience and contacts to further expand your business.</p>
             <div class="image-resize" style="text-align:center;">
-            <img src="img/light_bulb.png" alt="Idea" width="150" height="150">
+            <img src="img/light_bulb.png" alt="Idea" width="175" height="175">
           </div>
           </div>
         </div>
