@@ -27,7 +27,6 @@ $("button#submit").click( function() {
 	});
 
 	window.location = "myaccount.php";
-	window.location = "myaccount.php";
  
 });
 
