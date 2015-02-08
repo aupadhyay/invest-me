@@ -15,15 +15,15 @@
         			<span class="icon-bar"></span>
       				</button>
               
-     			 	<a class="navbar-brand" href="#">
+     			 	<a class="navbar-brand" href="index.php">
                     <img src="https://cloud.githubusercontent.com/assets/9246693/6094703/1aba957e-aeeb-11e4-8a95-683b7d2a84d7.png" style= "float:left; margin:-12px 15px 0px 15px"; height= "40" width="50" />
                 </a>
-                <a class="navbar-brand" href="#">E-VesT</a>
+                <a class="navbar-brand" href="index.php">E-VesT</a>
     			</div>
 
     			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       				<ul class="nav navbar-nav navbar-right">
-        		  	   <li><a href="#">Explore</a></li>
+        		  	   <li><a href="explore.php">Explore</a></li>
                     <li><a href="#login" data-toggle="modal">Log In</a></li>
                     <li><a href="#register" data-toggle="modal">Register</a></li>
                  </ul>
