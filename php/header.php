@@ -98,10 +98,9 @@
 
                   <label for="type">Choose One: </label>
                   <div class="checkbox">
-                    <label>
-                      <input type="checkbox"> Igniter (Investor) <br>
-                      <input type="checkbox"> Entrepreneur
-                    </label>
+                      <input type="radio" name="type" value="investor" checked>Investor
+                      <br>
+                      <input type="radio" name="type" value="entrepreneur">Entrepreneur
                   </div>
                 </div>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
