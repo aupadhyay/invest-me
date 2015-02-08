@@ -40,7 +40,8 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><?php echo $_SESSION['first_name'];?> <span class="caret"></span></a>
                         <ul class="dropdown-menu link-nav" role="menu">
                             <li><a href="myaccount.php">My Account</a></li>
-                            <li class = "link-nav"><a href="logout.php"> Log Out </a> </li>
+                            <li><a href="logout.php"> Log Out </a> </li>
+                            <li><a href="#idea-register">New Idea</a> </li>
                         </ul>
                     </li>
               
@@ -122,6 +123,31 @@
                 </div>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 <button type="submit" id = "submitRegister" name="submitRegister" class="btn btn-success">Register</button>
+            </form>
+
+            </div>
+          </div>
+        </div>
+        </div>
+
+      <div class="modal fade" id="idea-register" role = "dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="h1">New Idea</h4>
+            </div>
+          <div class="modal-body">
+            <div id="ack"></div>
+            <form action="new_idea.php" id = "myForm"method="POST">
+                <div class="form-group">
+                    <label for="title">Title</label>
+                    <input type="text" id="title" name="title" placeholder="Title">
+
+                    <label for="title">Title</label>
+                    <input type="text" id="title" name="title" placeholder="Title">
+                </div>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="submit" id = "submit" name="submit" class="btn btn-success">Log In</button>
             </form>
 
             </div>
