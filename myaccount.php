@@ -20,6 +20,7 @@
 		$_SESSION['username'] = $first_namea . "." . $last_namea . $id;
 		$username = $_SESSION['username'];
 		echo $username;
+		mysql_query("UPDATE `users` SET `username`='$username' WHERE `ID`='$id'");
 ?>
 <html>
 	<!--JUMBOTRON BEGINNING -->
