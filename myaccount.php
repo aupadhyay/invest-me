@@ -24,6 +24,7 @@
 		$username = $_SESSION['username'];
 		$sql_projects = mysql_query("SELECT * FROM `ideas` WHERE `owner`='$username'");
 		if(mysql_num_rows($sql_projects) > 0 ){
+			echo "Test";
 			while ($row = mysql_fetch_object($sql_projects)){
 				$title = $row->title;
 				$descrip = $row->descrip;
