@@ -10,8 +10,8 @@
 		$phone = mysql_escape_string($_POST['phone']);
 		$hours = mysql_escape_string($_POST['hours']);
 		
-		echo $name;
-
+		$insert_sql = mysql_query("INSERT INTO `users` (`name`, `lname`, `type`, `location`, `email`, `pass`, `phone`, `hours`) VALUES ('$name', '$lname', '$type', '$location', '$email', '$pass', '$phone', '$hours')");
+		
 	}
 	else{
 		echo "not set";
