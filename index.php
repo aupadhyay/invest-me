@@ -26,10 +26,7 @@
           </div>
         </div>
         <div class="col-sm-12" style="padding-left:0px;">
-            <h1>Questions?</h1>
-            <h2>Do you guys do transactions?</h2>
-            <h4>No, we don't not handle transactions between the Investors and the Pitchers.</h4>            
-
+            
 
 
           </div>

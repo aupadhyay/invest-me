@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .investorsbutton {
 	color:red;
 	height:100px;
@@ -8,3 +9,19 @@
 body {
     background-color: #56C9E3;
 }
+=======
+.signup {
+    width: 50%;
+    margin: 0 auto;
+    height: 50px;
+    width: 120px;
+    background-color: #BCD2EE;
+    border: 2px solid #6495ED;
+}
+
+.signup p{
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;
+}
+
