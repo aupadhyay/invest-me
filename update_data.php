@@ -2,6 +2,7 @@
 	session_start();
 	require("../databases/config_users.php");
 	function change_profile_image($user_id, $file_temp){
+		echo "Abhi!";
 		$file_path = 'img/profile/'. substr(md5(time()), 0,10). '.png';
 		move_uploaded_file($file_temp, $file_path);
 	}
