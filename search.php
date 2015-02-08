@@ -3,7 +3,7 @@
 	require("php/header.php");
 
 	$k = $_GET['keys'];
-	echo "Works"
+	echo "Works";
 	$terms = explode(" ", $k);
 	$i = 0;
 	$query = "SELECT * FROM `ideas` WHERE";
