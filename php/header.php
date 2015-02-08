@@ -168,12 +168,9 @@
                     <label for="title">Other</label>
                     <input type="text" class="form-control" id="other" name="other" placeholder="Other">
                 
-
-
-
                 </div>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="submit" id = "submit" name="submit" class="btn btn-success">Log In</button>
+                <button type="submit" id = "submit" name="submit" class="btn btn-success">Create!</button>
             </form>
 
             </div>
