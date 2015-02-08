@@ -41,6 +41,7 @@
 						</li>
 					<?php } ?>
 				</h1>
+				<p>Profile Page: <?php echo '<a href = "profile.php?u='.$username.'">'.$username.'</a>'; ?></p>
 				<form action="update_data.php" method="POST" id="saveForm">
 					<label>First Name:
 						<input class="form-control"  id = "fname"name="fname" type="text" value=<?php echo $first_namea;?>>
