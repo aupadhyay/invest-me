@@ -20,7 +20,7 @@
 <html>
 	<!--JUMBOTRON BEGINNING -->
 
-	<div id="error_div"></div>
+
 		<div class="container">
 			<div class="jumbotron">
 				<h1 class="h1" id ="welcome">My Account - 
@@ -54,6 +54,7 @@
 					</label><br/>
 					
 					<button type="submit" id = "saveSubmit" name="saveSubmit" class="btn btn-success">Save</button>
+					<div class="error_div"></div>
 				</form>
 			</div>
 		</div>

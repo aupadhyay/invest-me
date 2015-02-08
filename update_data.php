@@ -14,7 +14,7 @@
 	$_SESSION["location"] = $location;
 	$_SESSION["bio"] = $bio;
 
-	echo "Saved!";
+	echo "<h3>Saved!</h3>";
 
 
 
