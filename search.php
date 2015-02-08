@@ -9,7 +9,7 @@
 	$query = "SELECT *  FROM `ideas` WHERE ";
 	foreach($terms as $term){
 		$i++;
-		if($i = 1){
+		if($i == 1){
 			$query .= "`keywords` LIKE '%$term%'";
 		}else{
 			$query .= " OR `keywords` LIKE '%$term%'";
