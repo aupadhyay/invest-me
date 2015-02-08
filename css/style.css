@@ -9,3 +9,8 @@ body{
 .link-nav a{
 	color: #ffffff !important;
 }
+
+.jumbotron{
+	background-color:#FFC107 !important;
+	border-radius: 10px; 
+}
