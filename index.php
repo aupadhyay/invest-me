@@ -47,7 +47,7 @@
           <div class="col-sm-6">
             <h1 class="title2">Investors</h1>
             <p style="font-size:24px">Come look at cool products and ideas and invest in them! Help businesses grow and expand.<br>
-              With further help from investors we could all revolutionize technology</p>
+              With further help from investors we could all revolutionize technology and knowledge.</p>
             <img src="img/money.png" alt="Money" width="100" height="100">
           </div>
 
