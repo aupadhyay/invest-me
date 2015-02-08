@@ -140,11 +140,19 @@
             <div id="ack"></div>
             <form action="new_idea.php" id = "myForm"method="POST">
                 <div class="form-group">
+                    
+
+
+
                     <label for="title">Title</label>
                     <input type="text" id="title" name="title" placeholder="Title">
 
                     <label for="title">Title</label>
                     <input type="text" id="title" name="title" placeholder="Title">
+                
+                    
+
+
                 </div>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 <button type="submit" id = "submit" name="submit" class="btn btn-success">Log In</button>
