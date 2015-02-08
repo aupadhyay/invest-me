@@ -29,6 +29,7 @@
 		$company[$j] = $row->company;
 		$project[$j] = $row->project;
 		$equity[$j] = $row->equity;
+		$j = $j + 1;
 	}
 	echo $title[0];
 	
