@@ -19,7 +19,7 @@
 			$id = $row->ID;
 		}
 		$project_name = $title . ".".$id;
-		$sql_insert_project = mysql_query("INSERT INTO `ideas` (`project`) VALUES ('$project_name')");
+		$sql_insert_project = mysql_query("UPDATE `ideas` SET `project`='$project_name' WHERE 'ID' = '$id'");
 		
 	}
 
