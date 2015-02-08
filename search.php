@@ -15,7 +15,6 @@
 			$query .= " OR `keywords` LIKE '%$term%'";
 		}
 	}
-	echo $query;
 	$query = mysql_query($query);
 	$title = array();
 	$descrip = array();
@@ -37,6 +36,10 @@
 <html>
 	<div class="container">
 	<div class="jumbotron">
+	<form action="search.php" method="get" id="searchForm">
+		<input type="text" name="keys"class="form-control" id ="search" name="search" placeholder="Search...">
+		<button class="btn btn-info" type="submit" name="searchSubmit" id="searchSubmit">Submit</button>
+	</form>
 	<?php for($k=0;$k < sizeof($title);$k++){?>
 		<p>Title: <?php echo $title[$k]; ?></p>
 		<p>Description: <?php echo $descrip[$k]; ?></p>
