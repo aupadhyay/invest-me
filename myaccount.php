@@ -1,7 +1,7 @@
 <?php
 	session_start();
 	require("php/header.php");
-	echo $_SESSION["location"];
+	$location = $_SESSION["location"];
 ?>
 
 <html>
@@ -16,7 +16,7 @@
 					<label for="last_name">Last Name</label>
 					<input type="text" id="last_name" name= "last_name"placeholder=<?php echo $_SESSION["last_name"]; ?>>
 					<label for="location">Location</label>
-					<input type="text" id="location" name= "location"placeholder=<?php echo $_SESSION["location"]; ?>>
+					<input type="text" id="location" name= "location"placeholder=<?php echo $location; ?>>
 					<label for="phone">Phone</label>
 					<input type="text" id="phone" name= "phone"placeholder=<?php echo $_SESSION["phone"]; ?>>
 					<label for="hours">Hours</label>
