@@ -8,6 +8,14 @@
 
 		if(mysql_num_rows($query) > 0 ){
 			echo "Logged In!";
+			while ($row = mysql_fetch_object($query)){
+				$id = $row->ID;
+				$first_name = $row->name;
+				$last_name = $row->lname;
+				$email = $row->email;
+				$location = $row->location;
+			}
+			echo $first_name;
 		}
 	}
 	else{
