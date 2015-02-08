@@ -13,17 +13,21 @@ body{
 }
 .navbar-brand{
 	color: #def2ff !important;
-	font-family:Simple Dandy !important;
+	font-family:Market Deco!important;
 	font-size: 30px;	
 }
 
 .link-nav a{
 	color: #def2ff !important;
-	font-family:Simple Dandy !important;
+	font-family:Market Deco !important;
 	font-size: 30px;
 }
 
 .jumbotron{
 	background-color: #03d1f4 !important;
 	border-radius: 10px; 
+}
+
+*{
+	font-family: Market Deco;
 }
