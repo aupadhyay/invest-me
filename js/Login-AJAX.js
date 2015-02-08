@@ -8,7 +8,7 @@ $("button#submitRegister").click( function() {
 	$("#registerForm").submit( function() {
 	   return false;	
 	});
- 	window.top.location.reload();
+
 
 });
 
