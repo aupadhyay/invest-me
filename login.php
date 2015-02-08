@@ -11,7 +11,7 @@
 		}
 	}
 	else{
-		echo "not set"
+		echo "not set";
 	}
 
 ?>
