@@ -84,7 +84,7 @@
 			<h2>My Projects</h2>
 			<div class="row">
 			<?php for ($j=0; $j < sizeof($title) ; $j++) { ?>
-			<div class="col-sm-6">
+			<br><div class="col-sm-6">
 			<p>Title:<?php echo $title[$j];?></p>
 			<p>Description:<?php echo $descrip[$j];?></p>
 			<p>Equity:<?php echo $equity[$j];?></p>
