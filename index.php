@@ -13,10 +13,12 @@
       
       <div class="container">
         <div class="row">
-          <div class="col-sm-6" style="text-align:center;">
+          <div class="col-sm-6" >
             <h1>Investors</h1>
             <p>Come look at cool products and invest in them! Help businesses grow with your business expertise!</p>
-            <img src="img/money.png" alt="Money" width="200" height="200" >
+            <div class="container">
+              <img src="img/money.png" alt="Money" width="200" height="200">
+            </div>
           </div>
           
           <div class="col-sm-6">
