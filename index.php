@@ -56,12 +56,12 @@
             <p></p>
           </div>
         </div>
-        <div class="col-sm-12" style="padding-left:0px;">
+        <div class="col-sm-12" style="text-align:center;">
             
+          <div class="fb-like" data-href="https://www.facebook.com/pages/E-Vest/1585328398346199" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 
-
-          </div>
+        </div>
       
-    <div class="fb-like" style="width:100%;text-align:center;" data-href="https://www.facebook.com/pages/E-Vest/1585328398346199" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+    
   </div>
 </html> 
