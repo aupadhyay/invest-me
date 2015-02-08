@@ -55,7 +55,9 @@
             <h1 class="title2">Entrepreneurs</h1>
             <p style="font-size:24px">Post your company's information and have the investors lined up behind your product! <br>
               Use their past experience and contacts to further expand your business.</p>
-            <img src="img/light_bulb.png" alt="Idea" width="100" height="100">
+            <div class="image-resize">
+            <img src="img/light_bulb.png" alt="Idea" width="150" height="150">
+          </div>
           </div>
         </div>
         <div class="col-sm-12" style="text-align:center;">
