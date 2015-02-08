@@ -39,7 +39,7 @@ $("button#saveSubmit").click( function() {
 	$("#saveForm").submit( function() {
 	   return false;	
 	});
-	
- 
+	console.log("Test");
+ 	
 });
 
