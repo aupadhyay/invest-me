@@ -15,7 +15,7 @@
 				$email = $row->email;
 				$location = $row->location;
 			}
-	
+			echo $first_name;
 		}
 	}
 	else{
