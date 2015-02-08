@@ -25,8 +25,8 @@ $("button#submit").click( function() {
 	$("#myForm").submit( function() {
 	   return false;	
 	});
-
-	window.top.location.reload();
+	$('#login').modal('hide');
+	var textInJavascript = <?php echo $_SESSION['loggedin'] = 1; ?>;
  
 });
 
