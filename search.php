@@ -12,7 +12,7 @@
 		if($i == 1)
 			$query .= "`keywords` LIKE '$each' ";
 		else
-			$query .= "OR`keywords` LIKE '$each'";
+			$query .= "OR `keywords` LIKE '$each'";
 
 	}
 
