@@ -25,7 +25,10 @@
 <html>
 	<div class="container">
 		<div class="jumbotron">
-			<h1><?php echo $first_name; ?></h1>
+			<h1><?php echo $first_name." ".$last_name; ?></h1>
+			<p><?php echo $email; ?></p>
+			<p><?php echo $location; ?></p>
+			<p><?php echo $bio; ?></p>
 		</div>
 	</div>
 
