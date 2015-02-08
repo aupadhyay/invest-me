@@ -8,7 +8,7 @@ $("button#submitRegister").click( function() {
 	$("#registerForm").submit( function() {
 	   return false;	
 	});
- 	reload();
+ 	window.top.location.reload();
 
 });
 
@@ -26,7 +26,7 @@ $("button#submit").click( function() {
 	   return false;	
 	});
 
-	reload();
+	 window.top.location.reload();
  
 });
 
