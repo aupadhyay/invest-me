@@ -82,14 +82,23 @@
 	
 		<div class="container">
 			<h2>My Projects</h2>
+			<div class="row">
 			<?php for ($j=0; $j < sizeof($title) ; $j++) { ?>
-
+			<div class="col-sm-6">
 			<p>Title:<?php echo $title[$j];?></p>
 			<p>Description:<?php echo $descrip[$j];?></p>
 			<p>Equity:<?php echo $equity[$j];?></p>
 			<p>Company:<?php echo $company[$j];?></p>
+			</div>
+			<div class="col-sm-3">
+				<img src="placehold.it/30x30" alt="">
+			</div>
+			<div class="col-sm-3">
+				<img src="placehold.it/30x30" alt="">
+			</div>
 			<hr>
 			<?php }?>
+			</div>
 		</div>
 
 
