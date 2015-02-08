@@ -23,11 +23,8 @@
 	if($numrows > 0 ){
 		echo "testing";
 		while($row = mysql_fetch_assoc($query)){
-			$title = $row->title;
-			$desc = $row->descrip;
-			$equity = $row->equity;
-			$company = $row->company;
-			$founder = $row->founder;
+			$title = $row['title'];
+			$desc = $row['descrip'];
 		}
 		echo $title."<br>";
 
