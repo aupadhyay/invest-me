@@ -36,7 +36,7 @@
 			<div class="jumbotron">
         
 				<h1>E-VEST</h1>
-              <button class="btn btn-primary btn-lg" onClick="location.href='http://anothersitehere.com/file.pdf'">Download PDF</button>
+              <button class="btn btn-primary btn-lg" onClick="location.href='index.html'">Sign Up</button>
 			</div>
 		</div>
     <div class="container">
