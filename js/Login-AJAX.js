@@ -50,6 +50,7 @@ $("button#searchSubmit").click( function() {
 	console.log("Clicked");
   $.post("search.php",$("#searchForm :input").serializeArray(),
 			function(data) {
+				console.log(data);
 				$("div#results").html(data);
 			});
  
