@@ -3,6 +3,8 @@
     src: url('../fonts/Market_Deco.eot') format('embedded-opentype'),
     url('../fonts/Market_Deco.otf') format('opentype'); /* IE */
 }
+
+
 .navbar-custom{
 	background-color:#03a9f4 !important;
 	
@@ -26,8 +28,4 @@ body{
 .jumbotron{
 	background-color: #03d1f4 !important;
 	border-radius: 10px; 
-}
-
-*{
-	font-family: Market Deco;
 }
