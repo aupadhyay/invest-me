@@ -19,7 +19,7 @@
      			 	<a class="navbar-brand" href="index.php">
                     <img src="https://cloud.githubusercontent.com/assets/9246693/6094703/1aba957e-aeeb-11e4-8a95-683b7d2a84d7.png" style= "float:left; margin:-12px 15px 0px 15px"; height= "40" width="50" />
                 </a>
-                <a class="navbar-brand link-nav" href="index.php" style="color:#ffffff;">E-VesT</a>
+                <a class="navbar-brand link-nav" href="index.php" style="color:#ffffff;">INVesT</a>
     			</div>
 
     			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
