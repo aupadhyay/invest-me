@@ -36,7 +36,7 @@
 			<div class="jumbotron">
         
 				<h1>E-VEST</h1>
-              <button class="btn btn-primary btn-lg" onClick="location.href='#register'" data-toggle="modal">Sign Up</button>
+              <a class="btn-large" href="#register" data-toggle="modal">Register</a>
 			</div>
 		</div>
     <div class="container">
