@@ -39,7 +39,6 @@
 		<div class="container">
 			<div class="jumbotron">
 				<h1>E-VEST</h1>
-              <p><?php echo $_SESSION['first_name'];?></p>
 			</div>
 		</div>
       
