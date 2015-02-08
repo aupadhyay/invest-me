@@ -1,7 +1,5 @@
 <?php
 	require("../databases/config_users.php");
-	$_POST['email'] = "abhi.upadhyay01@gmail.com";
-	$_POST['pass'] = "janoneseven2";
 	if(isset($_POST['email'])){
 		$username = mysql_escape_string($_POST['email']);
 		$pass = mysql_escape_string($_POST['pass']);
