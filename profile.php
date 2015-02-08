@@ -3,7 +3,7 @@
 	if(isset($_GET['u'])){
 		$u = mysql_escape_string($_GET['u']);
 		echo $u;
-		$sql_query = mysql_query("SELECT * FROM `users` WHERE `username`='u'");
+		$sql_query = mysql_query("SELECT * FROM `users` WHERE `username`='$u'");
 
 		if(mysql_num_rows($sql_query) > 0){
 			while ($row = mysql_fetch_object($sql_query)){
