@@ -4,7 +4,7 @@
 
 ?>
 <html>
-
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 		<div class="container">
 			<div class="jumbotron">
 				<h1>E-VEST</h1>
@@ -13,12 +13,10 @@
       
       <div class="container">
         <div class="row">
-          <div class="col-sm-6" >
+          <div class="col-sm-6">
             <h1>Investors</h1>
-            <p style="font-size:20px">Come look at cool products and invest in them! Help businesses grow with your business expertise!</p>
-            <div class="contain-this" style="text-align: center;">
-              <img src="img/money.png" alt="Money" width="200" height="200">
-            </div>
+            <p>Come look at cool products and invest in them! Help businesses grow with your business expertise!</p>
+            <img src="img/money.png" alt="Money" width="100" height="100">
           </div>
           
           <div class="col-sm-6">
@@ -36,4 +34,4 @@
           </div>
       </div>
 
-</html>
+</html> 
