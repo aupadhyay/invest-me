@@ -25,8 +25,9 @@ $("button#submit").click( function() {
 	$("#myForm").submit( function() {
 	   return false;	
 	});
+
 	window.location = "myaccount.php";
-	location.reload();
+	window.top.location.reload();
  
 });
 
