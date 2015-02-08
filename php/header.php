@@ -147,10 +147,31 @@
                     <label for="title">Title</label>
                     <input type="text" id="title" name="title" placeholder="Title">
 
-                    <label for="title">Title</label>
-                    <input type="text" id="title" name="title" placeholder="Title">
+                    <label for="title">Description</label>
+                    <input type="text" id="desc" name="desc" placeholder="desc">
+
+                    <label for="title">Video-URL</label>
+                    <input type="text" id="video_url" name="video_url" placeholder="video_url">
+
+                    <label for="title">Equity</label>
+                    <input type="text" id="equity" name="equity" placeholder="equity">
+
+                    <label for="title">Keywords</label>
+                    <input type="text" id="keywords" name="keywords" placeholder="keywords">
+
+                    <label for="title">Company</label>
+                    <input type="text" id="company" name="company" placeholder="company">
+
+                    <label for="title">Founder</label>
+                    <input type="text" id="founder" name="founder" placeholder="founder">
+
+                    <label for="title">Website</label>
+                    <input type="text" id="website" name="website" placeholder="website">
+
+                    <label for="title">Other</label>
+                    <input type="text" id="other" name="other" placeholder="other">
                 
-                    
+
 
 
                 </div>
