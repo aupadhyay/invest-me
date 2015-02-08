@@ -14,6 +14,6 @@
 
 	$sql_query = mysql_query("INSERT INTO `ideas` (`title`, `descrip`, `video_url`, `equity`, `keywords`, `company`, `founder`, `website`, `other`) VALUES('$title','$desc','$video','$equity','$keywords','$company', '$founder', '$website', '$other')");
 
-
+	header("Location: index.php"); /* Redirect browser */
 
 ?>
