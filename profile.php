@@ -59,11 +59,7 @@
 			<p>Equity:<?php echo $equity[$j];?></p>
 			<p>Company:<?php echo $company[$j];?></p>
 			</div>
-			<div class="col-sm-3">
-				<img src="img/pencil.png" width="84px" height="84px" alt="A">
-			</div>
-			<div class="col-sm-3">
-				<img src="img/trash.jpg" width="84px" height="96px" alt="A">
+			<div class="col-sm-6">
 			</div>
 			<div class="col-sm-12">
 				<hr>
