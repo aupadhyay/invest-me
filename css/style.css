@@ -12,13 +12,13 @@ body{
 	background-color: #def2ff;
 }
 .navbar-brand{
-	color: #0331f4 !important;
+	color: #def2ff !important;
 	font-family:Simple Dandy !important;
 	font-size: 30px;	
 }
 
 .link-nav a{
-	color: #0331f4 !important;
+	color: #def2ff !important;
 	font-family:Simple Dandy !important;
 	font-size: 30px;
 }
