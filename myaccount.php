@@ -74,6 +74,8 @@
 						<textarea type="textarea" id = "bio"name="bio"class= "form-control" style="overflow:auto;resize:none !important;" rows="5" cols="40"><?php echo $bioa; ?></textarea>
 					</label><br/>
 					
+					<label>Profile Picture:</label>
+					<input type="file" name="profile">
 					<button type="submit" id = "saveSubmit" name="saveSubmit" class="btn btn-success">Save</button>
 				</form>
 				<div id="error_div"></div>
