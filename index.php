@@ -38,7 +38,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 		<div class="container">
 			<div class="jumbotron">
-				<h1 class="title">Welcome to INvest...<em>Technology Solutions For The Future</em></h1>
+				<h1 class="title">Welcome to INVest...<em>Technology Solutions For The Future</em></h1>
 			</div>
 		</div>
       
@@ -47,7 +47,7 @@
           <div class="col-sm-6">
             <h1 class="title2">INVestors</h1>
             <p style="font-size:24px">Check out new products introduced to the market and, possibly, invest in them! Help businesses grow and expand.
-              With further help from investors <br>we could all revolutionize technology and knowledge.</p>
+              With further help from investors we could all revolutionize technology and knowledge.</p>
             <div class="image-resize" style="text-align:center;">
             <img src="img/money.png" alt="Money" width="150" height="150">
           </div>
@@ -67,7 +67,7 @@
           <div class="fb-like" data-href="https://www.facebook.com/pages/E-Vest/1585328398346199" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 
         </div>
-      
+        <p>Abhi</p>
     
   </div>
 </html> 
