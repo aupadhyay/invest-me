@@ -38,7 +38,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 		<div class="container">
 			<div class="jumbotron">
-				<h1 class="title">Welcome to INVest...<em>Technology Solutions For The Future</em></h1>
+				<h1 class="title">Welcome to INvest...<em>Technology Solutions For The Future</em></h1>
 			</div>
 		</div>
       
