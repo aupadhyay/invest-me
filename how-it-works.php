@@ -22,8 +22,7 @@
 							<li>Chat with potential investors and work out a deal</li>
 							<li>Have investors take your start-up to even <em>greater</em> heights.</li>
 						</ul>
-								
-				
+							
 				</ul>
 		</div>
 	</div>
