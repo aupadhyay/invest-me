@@ -4,7 +4,7 @@
 ?>
 <html>
 	<div class="container">
-		<div class="jumbotron">
+		<div class="jumbotron" style ="color:white;">
 				<h1>How It Works.</h1>
 				<hr>
 				<p style="font-size:30px">Are you a venture capitalist? OR do you need captial to really <em>ignite</em> your business? <br>
@@ -12,7 +12,7 @@
 				<ul>
 					<li><STRONG>Venture Capitalists</STRONG> </li>
 						<ul>
-							<li>Browse through ideas and businesses.</li>
+							<li style="color: white;">Browse through ideas and businesses.</li>
 							<li>Interact with the company you're interested in.</li>
 							<li>Help businesses using your funding and your expertise in the field, contacts, etc.</li>	
 						</ul>
