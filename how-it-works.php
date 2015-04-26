@@ -4,7 +4,7 @@
 ?>
 <html>
 	<div class="container">
-		<div class="jumbotron" style ="color:#03a9f4;">
+		<div class="jumbotron" style ="color:#def2ff;">
 				<h1>How It Works.</h1>
 				<hr>
 				<p style="font-size:30px">Are you a venture capitalist? OR do you need captial to really <em>ignite</em> your business? <br>
